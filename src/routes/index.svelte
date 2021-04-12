@@ -1,15 +1,21 @@
+<script lang="ts">
+	import Footer from '$lib/footer.svelte';
+</script>
 <main>
-	<div id="info">
-		<h1>Luae Web Editor</h1>
-		<p>Cepi's scripting engine's editor.</p>
+	<div id="content">
+		<div id="info">
+			<h1>Luae Web Editor</h1>
+			<p>Cepi's scripting engine's editor.</p>
+		</div>
+		<div id="start">
+			<button>Create New Script</button>
+		</div>
 	</div>
-	<div id="start">
-		<button>Create New Script</button>
-	</div>
+	<Footer />
 </main>
 <style lang="scss">
 
-	main {
+	#content {
 		position: absolute;
 		transform: translateY(-50%);
 		width: 100%;
@@ -43,5 +49,10 @@
 		background: rgba(0, 0, 0, 0);
 		border: white solid 2px;
 		color: white;
+		font-family: 'Open Sans', sans-serif;
+		transition: 200ms background;
+		&:hover {
+			background: rgba(0, 0, 0, 0.1)
+		}
 	}
 </style>
