@@ -22,7 +22,6 @@
 	let editor = new EditorView({ 
 		state: EditorState.create({
 			extensions: [
-				keymap.of([defaultTabBinding]),
 				lua(),
 				lineNumbers(),
 				highlightSpecialChars(),
@@ -46,7 +45,8 @@
 				...foldKeymap,
 				...commentKeymap,
 				...completionKeymap,
-				...lintKeymap
+				...lintKeymap,
+				defaultTabBinding
 				])
 			],
 		}),
