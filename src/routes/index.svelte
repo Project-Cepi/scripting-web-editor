@@ -17,12 +17,14 @@
 	import { rectangularSelection } from "@codemirror/rectangular-selection"
 	import { defaultHighlightStyle } from "@codemirror/highlight"
 	import { lintKeymap } from "@codemirror/lint"
-	import lua from '$lib/_lua.ts'
+	import { StreamLanguage } from "@codemirror/stream-parser"
+	import { lua } from "@codemirror/legacy-modes/mode/lua"
+
 
 	let editor = new EditorView({ 
 		state: EditorState.create({
 			extensions: [
-				lua(),
+				StreamLanguage.define(lua),
 				lineNumbers(),
 				highlightSpecialChars(),
 				history(),
