@@ -19,6 +19,9 @@ module.exports = {
 		vite: {
 			ssr: {
 				noExternal: Object.keys(pkg.dependencies || {})
+			},
+			resolve: {
+				dedupe: ["@codemirror/state", "@codemirror/language", "@codemirror/view"]
 			}
 		}
 	}

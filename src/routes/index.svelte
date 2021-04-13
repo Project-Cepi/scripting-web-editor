@@ -1,5 +1,10 @@
 <script lang="ts">
 	import Footer from '$lib/footer.svelte';
+	import { goto } from '$app/navigation';
+
+	function createEditorSession() {
+		goto("/editor")
+	}
 </script>
 <main>
 	<div id="content">
@@ -8,7 +13,7 @@
 			<p>Cepi's scripting engine's editor.</p>
 		</div>
 		<div id="start">
-			<button>Create New Script</button>
+			<button on:click={createEditorSession}>Create New Script</button>
 		</div>
 	</div>
 	<Footer />
@@ -23,6 +28,7 @@
 		text-align: center;
 		display: flex;
 		justify-content: space-evenly;
+		flex-wrap: wrap;
 	}
 
 	#start {
