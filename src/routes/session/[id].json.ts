@@ -1,7 +1,12 @@
-export async function post(request) {
+import { grabSession } from '$lib/_editorSession.ts'
+
+export async function get(request) {
+
+	const text = await grabSession("")
+
 	return {
 		body: {
-			1: true
+			text: text
 		}
 	}
 }

@@ -1,7 +1,12 @@
+import { newSession } from '$lib/_editorSession.ts'
+
 export async function post(request) {
+
+	const sessionUUID = await newSession();
+
 	return {
 		body: {
-			1: true
+			id: sessionUUID
 		}
 	}
 }

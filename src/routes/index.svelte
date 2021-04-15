@@ -1,12 +1,13 @@
 <script lang="ts">
 	import Footer from '$lib/footer.svelte';
+	import Container from '$lib/container.svelte';
 	import { goto } from '$app/navigation';
 
 	function createEditorSession() {
 		goto("/editor")
 	}
 </script>
-<main>
+<Container>
 	<div id="content">
 		<div id="info">
 			<h1>Luae Web Editor</h1>
@@ -17,7 +18,7 @@
 		</div>
 	</div>
 	<Footer />
-</main>
+</Container>
 <style lang="scss">
 
 	#content {

@@ -33,5 +33,9 @@
 		"typescript": "^4.0.0",
 		"vite": "^2.1.0"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"@codemirror/collab": "^0.18.2",
+		"uuid-random": "^1.3.2"
+	}
 }
