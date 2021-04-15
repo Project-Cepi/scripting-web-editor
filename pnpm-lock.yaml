@@ -1,16 +1,16 @@
 dependencies:
   '@codemirror/collab': 0.18.2
+  '@codemirror/legacy-modes': 0.18.0
   uuid-random: 1.3.2
 devDependencies:
   '@codemirror/basic-setup': 0.18.0
   '@codemirror/commands': 0.18.1
   '@codemirror/highlight': 0.18.3
   '@codemirror/language': 0.18.1
-  '@codemirror/legacy-modes': 0.18.0
   '@codemirror/stream-parser': 0.18.1
   '@codemirror/view': 0.18.6
   '@sveltejs/adapter-node': 1.0.0-next.12
-  '@sveltejs/kit': 1.0.0-next.74_svelte@3.37.0+vite@2.1.5
+  '@sveltejs/kit': 1.0.0-next.75_svelte@3.37.0+vite@2.1.5
   '@typescript-eslint/eslint-plugin': 4.21.0_bb1772e1f887ed78c68f06416685750e
   '@typescript-eslint/parser': 4.21.0_eslint@7.24.0+typescript@4.2.4
   eslint: 7.24.0
@@ -137,7 +137,6 @@ packages:
       '@codemirror/view': 0.18.6
       lezer-tree: 0.13.2
       style-mod: 4.0.0
-    dev: true
     resolution:
       integrity: sha512-NmRmkmWl8ht6Y6Y39ghov84AMPCqhUPIH9fmILs2NaWxZFZf4jGCTzrULnmREGsTie+26+LbKUncIU+PBu1Qng==
   /@codemirror/history/0.18.1:
@@ -154,13 +153,12 @@ packages:
       '@codemirror/view': 0.18.6
       lezer: 0.13.4
       lezer-tree: 0.13.2
-    dev: true
     resolution:
       integrity: sha512-j/TWV8sNmzU79kk/hPLb9NqSPoH59850kQSpgY11LxOEBlKVRKgaWabgNtUCSeVCAnfisGekupk3aq2ftILqug==
   /@codemirror/legacy-modes/0.18.0:
     dependencies:
-      '@codemirror/stream-parser': 0.18.1
-    dev: true
+      '@codemirror/stream-parser': 0.18.2
+    dev: false
     resolution:
       integrity: sha512-ME/FnBTRf+nriCB1Racmwhl3tSSnIOobhLyK0kOX6mogKdcdkRxSVpeo1fAC8DddsXqi/NKRn8GUr/vUiHefdg==
   /@codemirror/lint/0.18.1:
@@ -192,7 +190,6 @@ packages:
   /@codemirror/rangeset/0.18.0:
     dependencies:
       '@codemirror/state': 0.18.5
-    dev: true
     resolution:
       integrity: sha512-+dpK3T6EFv2vkoAc3sTZld0N5SHZDjD3YowFYuMWn0Xw3t+u6k+JZlGBuaFTXdsLeF0auclsm0XhRUpMVuXhTg==
   /@codemirror/rectangular-selection/0.18.0:
@@ -217,7 +214,6 @@ packages:
   /@codemirror/state/0.18.5:
     dependencies:
       '@codemirror/text': 0.18.0
-    dev: true
     resolution:
       integrity: sha512-lHR+yE08jEz7MqA5hgNvK4/ksF2mQsJJ/pedKKfB94CUobMX20tsFQ27lZbXCxZDQcz5lO0AZuFuRqrbDlRtKA==
   /@codemirror/state/0.18.6:
@@ -237,6 +233,17 @@ packages:
     dev: true
     resolution:
       integrity: sha512-Q7HXbZRbAg5SboM0/3Hw9bKX7UxRWVsrtFjeQXzti2be/VHfMUAykidqWwWHe1SSn3Me3izpw9vLNEoGCm7tBw==
+  /@codemirror/stream-parser/0.18.2:
+    dependencies:
+      '@codemirror/highlight': 0.18.3
+      '@codemirror/language': 0.18.1
+      '@codemirror/state': 0.18.6
+      '@codemirror/text': 0.18.0
+      lezer: 0.13.4
+      lezer-tree: 0.13.2
+    dev: false
+    resolution:
+      integrity: sha512-3RTRmhIixcC2ps/G8So+BL0qJkwaspjyYt4smVYlSn4eNbxGK9K2RCnSmOPRv0SkuQMu3oUFbprFI/SbtZrPKg==
   /@codemirror/text/0.18.0:
     resolution:
       integrity: sha512-HMzHNIAbjCiCf3tEJMRg6ul01KPuXxQGNiHlHgAnqPguq/CX+L4Nvj5JlWQAI91Pupk18zhmM1c6eaazX4YeTg==
@@ -254,7 +261,6 @@ packages:
       '@codemirror/text': 0.18.0
       style-mod: 4.0.0
       w3c-keyname: 2.2.4
-    dev: true
     resolution:
       integrity: sha512-j0TtJbV+41g/0eGH7Pgx9wtO7Y3Rg0s9shLFGvUtJ4jMIimkCelQsEBtUmfEbNxAVXOsN+CbmsKg8M9p0ISeCA==
   /@eslint/eslintrc/0.4.0:
@@ -312,7 +318,7 @@ packages:
     dev: true
     resolution:
       integrity: sha512-DGP3dT5ijsTV0zmLDmZP8wI4RjZlifGGzA0y4HLoWNEKhZJLDjFDJnNcA+O5S9QBxQOVaYUlAY2z19r+skBVjA==
-  /@sveltejs/kit/1.0.0-next.74_svelte@3.37.0+vite@2.1.5:
+  /@sveltejs/kit/1.0.0-next.75_svelte@3.37.0+vite@2.1.5:
     dependencies:
       '@sveltejs/vite-plugin-svelte': 1.0.0-next.6_svelte@3.37.0+vite@2.1.5
       cheap-watch: 1.0.3
@@ -327,7 +333,7 @@ packages:
       svelte: ^3.32.1
       vite: ^2.1.0
     resolution:
-      integrity: sha512-2a8iW2h25CXpAnKc0c9QRqnbJ/gF2IzN43l29nPWoPmhbV4214qrAbr+JFaW61B0P0C619g8IHXJNB1DpluX/A==
+      integrity: sha512-DbxEptDY5+sYBsdwdKz62AgbXSRAuKyGkE5yrR8ZchRDluCiZG2fSo5qZDSEPqDpdFEuGIubdpXYuQgVxLL9Gg==
   /@sveltejs/vite-plugin-svelte/1.0.0-next.6_svelte@3.37.0+vite@2.1.5:
     dependencies:
       '@rollup/pluginutils': 4.1.0
@@ -1211,13 +1217,11 @@ packages:
     resolution:
       integrity: sha512-+bT2uH4E5LGE7h/n3evcS/sQlJXCpIp6ym8OWJ5eV6+67Dsql/LaaT7qJBAt2rzfoa/5QBGBhxDix1dMt2kQKQ==
   /lezer-tree/0.13.2:
-    dev: true
     resolution:
       integrity: sha512-15ZxW8TxVNAOkHIo43Iouv4zbSkQQ5chQHBpwXcD2bBFz46RB4jYLEEww5l1V0xyIx9U2clSyyrLes+hAUFrGQ==
   /lezer/0.13.4:
     dependencies:
       lezer-tree: 0.13.2
-    dev: true
     resolution:
       integrity: sha512-cLQxUVY28VBBqKBt/R8CYeH57KQnIvscAnoahzvhlZTK8qxMkIyGExR6ecEpYYDX06ZhROZrEm1IiPvjLAsTig==
   /lodash.clonedeep/4.5.0:
@@ -1573,7 +1577,6 @@ packages:
     resolution:
       integrity: sha512-6fPc+R4ihwqP6N/aIv2f1gMH8lOVtWQHoqC4yK6oSDVVocumAsfCqjkXnqiYMhmMwS/mEHLp7Vehlt3ql6lEig==
   /style-mod/4.0.0:
-    dev: true
     resolution:
       integrity: sha512-OPhtyEjyyN9x3nhPsu76f52yUGXiZcgvsrFVtvTkyGRQJ0XK+GPc6ov1z+lRpbeabka+MYEQxOYRnt5nF30aMw==
   /supports-color/5.5.0:
@@ -1760,7 +1763,6 @@ packages:
     resolution:
       integrity: sha512-tYU5iaYeUgQYvK/CNNz3tiJ8vYqPWfCE9IQ7K0iuzYovWw7lzty7KRYGWwV3CQPh0NKxWjOczAqiJsCL0Xb+Og==
   /w3c-keyname/2.2.4:
-    dev: true
     resolution:
       integrity: sha512-tOhfEwEzFLJzf6d1ZPkYfGj+FWhIpBux9ppoP3rlclw3Z0BZv3N7b7030Z1kYth+6rDuAsXUFr+d0VE6Ed1ikw==
   /which/2.0.2:

@@ -20,6 +20,9 @@ module.exports = {
 			ssr: {
 				noExternal: Object.keys(pkg.dependencies || {})
 			},
+			optimizeDeps: {
+				include: ["@codemirror/legacy-modes/mode/lua"]
+			},
 			resolve: {
 				dedupe: ["@codemirror/state", "@codemirror/language", "@codemirror/view"]
 			}
