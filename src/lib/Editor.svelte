@@ -24,9 +24,8 @@
 	import { defaultHighlightStyle } from "@codemirror/highlight"
 	import { lintKeymap } from "@codemirror/lint"
 	import { oneDark } from './_editorTheme';
-	import { StreamLanguage } from "@codemirror/stream-parser"
 	import { EditorView } from '@codemirror/view'
-	// import { lua } from "@codemirror/legacy-modes/mode/lua"
+	import { lua } from "./lua/luaLanguage"
 
 	import { onMount } from 'svelte';
 
@@ -35,7 +34,7 @@
 	const state = EditorState.create({
 		extensions: [
 			oneDark,
-			// StreamLanguage.define(lua),
+			lua(),
 			lineNumbers(),
 			highlightSpecialChars(),
 			history(),

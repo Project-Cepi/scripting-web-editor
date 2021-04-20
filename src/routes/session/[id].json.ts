@@ -1,4 +1,4 @@
-import { grabSession } from '$lib/_editorSession.ts'
+import { grabSession } from '$lib/_editorSession'
 
 export async function get(request) {
 

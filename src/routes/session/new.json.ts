@@ -1,4 +1,4 @@
-import { newSession } from '$lib/_editorSession.ts'
+import { newSession } from '$lib/_editorSession'
 
 export async function post(request) {
 
