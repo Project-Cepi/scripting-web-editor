@@ -12,10 +12,9 @@
 
 </script>
 <style lang="scss">
-	:global(.cm-content, .cm-gutter) { min-height: calc(100vh - 5px); }
+	:global(.cm-content, .cm-gutter) { min-height: calc(100vh - 2px); }
 	:global(.cm-gutters) { margin: 1px; }
 	:global(.cm-scroller) { overflow: auto; }
-	:global(.cm-wrap) { border: 1px solid silver }
 </style>
 <Editor>
 
