@@ -3,7 +3,7 @@
 </script>
 <script lang="ts">
 	import { EditorView } from '@codemirror/view'
-	import { state } from '$lib/_editorState'
+	import Editor from '$lib/Editor.svelte'
 
 	import { onMount } from 'svelte';
 
@@ -11,14 +11,8 @@
 
 	onMount(() => {
 
-		const editor = new EditorView({ 
-			state,
-			parent: editorParent
-		})
-
 	})
 </script>
+<Editor>
 
-<main>
-	<div id="editor" bind:this={editorParent}></div>
-</main>
+</Editor>
