@@ -1,5 +1,11 @@
-<script context="module">
+<script context="module" lang="ts">
 	export const ssr = false;
+
+	let editor;
+
+	export function grabEditor(): EditorState {
+		return editor;
+	}
 </script>
 <script lang="ts">
 	import { keymap, highlightSpecialChars, drawSelection, highlightActiveLine } from "@codemirror/view"
@@ -19,6 +25,7 @@
 	import { lintKeymap } from "@codemirror/lint"
 	import { StreamLanguage } from "@codemirror/stream-parser"
 	import { EditorView } from '@codemirror/view'
+	// import { lua } from "@codemirror/legacy-modes/mode/lua"
 
 	import { onMount } from 'svelte';
 
@@ -26,6 +33,7 @@
 
 	const state = EditorState.create({
 		extensions: [
+			// StreamLanguage.define(lua),
 			lineNumbers(),
 			highlightSpecialChars(),
 			history(),
@@ -55,7 +63,7 @@
 	})
 
 	onMount(() => {
-		const editor = new EditorView({ 
+		editor = new EditorView({ 
 			state,
 			parent: editorParent
 		})
