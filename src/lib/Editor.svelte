@@ -23,6 +23,7 @@
 	import { rectangularSelection } from "@codemirror/rectangular-selection"
 	import { defaultHighlightStyle } from "@codemirror/highlight"
 	import { lintKeymap } from "@codemirror/lint"
+	import { oneDark } from './_editorTheme';
 	import { StreamLanguage } from "@codemirror/stream-parser"
 	import { EditorView } from '@codemirror/view'
 	// import { lua } from "@codemirror/legacy-modes/mode/lua"
@@ -33,6 +34,7 @@
 
 	const state = EditorState.create({
 		extensions: [
+			oneDark,
 			// StreamLanguage.define(lua),
 			lineNumbers(),
 			highlightSpecialChars(),
