@@ -1,12 +1,12 @@
-import { newSession } from '$lib/_editorSession'
+import { newSession } from '$lib/editorSession'
 
 export async function post(request) {
 
-	const sessionUUID = await newSession();
+	const sessionID = await newSession();
 
 	return {
 		body: {
-			id: sessionUUID
+			id: sessionID
 		}
 	}
 }

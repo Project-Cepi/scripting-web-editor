@@ -1,18 +1,21 @@
 import { Text } from "@codemirror/state"
-import uuid from 'uuid-random';
 
 const sessionMap: Map<string, Text> = new Map();
 
+function newID(): string {
+	return Math.random().toString(36).substring(7);
+}
+
 export async function newSession(): Promise<string> {
 
-	// generate new uuid
-	const uuids = uuid()
+	// generate new id
+	const id = newID()
 
 	// set it in lookup
-	sessionMap.set(uuids, Text.empty)
+	sessionMap.set(id, Text.empty)
 
 	// return
-	return uuids
+	return id
 }
 
 export async function grabSession(id: string): Promise<Text> {

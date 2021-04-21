@@ -1,4 +1,4 @@
-import { grabSession } from '$lib/_editorSession'
+import { grabSession } from '$lib/editorSession'
 
 export async function get(request) {
 

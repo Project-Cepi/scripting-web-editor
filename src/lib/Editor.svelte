@@ -23,7 +23,7 @@
 	import { rectangularSelection } from "@codemirror/rectangular-selection"
 	import { defaultHighlightStyle } from "@codemirror/highlight"
 	import { lintKeymap } from "@codemirror/lint"
-	import { oneDark } from './_editorTheme';
+	import { oneDark } from './editorTheme';
 	import { EditorView } from '@codemirror/view'
 	import { lua } from "./lua/luaLanguage"
 
