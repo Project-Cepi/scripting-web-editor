@@ -1,6 +1,7 @@
 import { newSession } from '$lib/editorSession'
+import type { RequestHandler } from '@sveltejs/kit'
 
-export async function post(request) {
+export const post: RequestHandler = async function() {
 
 	const sessionID = await newSession();
 

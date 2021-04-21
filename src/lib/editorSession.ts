@@ -18,6 +18,6 @@ export async function newSession(): Promise<string> {
 	return id
 }
 
-export async function grabSession(id: string): Promise<Text> {
+export async function grabSession(id: string): Promise<Text | undefined> {
 	return sessionMap.get(id)
 }

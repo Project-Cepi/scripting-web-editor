@@ -1,17 +1,29 @@
 import { grabSession } from '$lib/editorSession'
+import type { RequestHandler } from '@sveltejs/kit'
 
-export async function get(request) {
+export const get: RequestHandler = async function ({ params }) {
 
-	const text = await grabSession("")
+	const { slug } = params;
+
+	const text = await grabSession(slug)
+
+	if (text === undefined) {
+		return {
+			status: 404,
+			body: {
+				error: `ID ${slug} not found.`
+			}
+		}
+	}
 
 	return {
 		body: {
-			text: text
+			text: [...text]
 		}
 	}
 }
 
-export async function post(request) {
+export const post: RequestHandler = async function() {
 
 	return {
 		body: {
