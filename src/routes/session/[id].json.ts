@@ -10,3 +10,13 @@ export async function get(request) {
 		}
 	}
 }
+
+export async function post(request) {
+
+	return {
+		body: {
+			text: "test"
+		}
+	}
+
+}
