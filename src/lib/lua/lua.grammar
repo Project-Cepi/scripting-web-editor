@@ -99,11 +99,11 @@ var {
   Name | Property { (prefixexp "." Name) } | MemberExpression { (prefixexp "[" exp "]") }
 }
 
-kw<term> { @specialize[@name={term}]<identifier, term> }
+kw<term> { @specialize[@name={term}]<Identifier, term> }
 
-Name { identifier }
+Name { Identifier }
 Label { "::" Name "::" }
-LiteralString { simpleString }
+LiteralString { SingleString }
 
 BinaryExpression {
   exp !or kw<"or"> exp |
@@ -131,7 +131,7 @@ TableConstructor { "{" (field (fieldsep field) fieldsep?)? "}" }
 
   word { std.asciiLetter (std.digit | std.asciiLetter)* }
 
-  identifier { word }
+  Identifier { word }
 
   stringEscape {
     "\\" ($[abfnz"'\\] | digit digit? digit?) |
@@ -140,7 +140,7 @@ TableConstructor { "{" (field (fieldsep field) fieldsep?)? "}" }
     "\\u{" hex+ "}"
   }
 
-  simpleString { "'" (stringEscape | ![\r\n\\'])+ "'" | '"' (stringEscape | ![\r\n\\"])+ '"'}
+  SingleString { "'" (stringEscape | ![\r\n\\'])+ "'" | '"' (stringEscape | ![\r\n\\"])+ '"'}
 
   hex { $[0-9a-fA-F] }
   digit { std.digit }
