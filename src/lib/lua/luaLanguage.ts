@@ -8,9 +8,14 @@ const parserWithMetadata = parser.configure({
 		styleTags({
 			Number: tags.number, 
 			CompareOp: tags.compareOperator,
+			"not": tags.operatorKeyword,
 			Comment: tags.comment,
+			"for while if elseif else then end": tags.controlKeyword,
+			"local function": tags.definitionKeyword,
+			"true false": tags.bool,
 			Identifier: tags.variableName,
 			SingleString: tags.string,
+			Ellipsis: tags.punctuation,
 			"( )": tags.paren,
 			"[ ]": tags.squareBracket,
 			"{ }": tags.brace
