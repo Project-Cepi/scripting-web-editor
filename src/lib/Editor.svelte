@@ -25,7 +25,7 @@
 	import { lintKeymap } from "@codemirror/lint"
 	import { oneDark } from './editorTheme';
 	import { EditorView } from '@codemirror/view'
-	import { lua, luaLinter } from "./lua/luaLanguage"
+	import { lua } from "./lua/luaLanguage"
 
 	import { onMount } from 'svelte';
 
@@ -34,7 +34,6 @@
 	const state = EditorState.create({
 		extensions: [
 			oneDark,
-			luaLinter(),
 			lua(),
 			lineNumbers(),
 			highlightSpecialChars(),

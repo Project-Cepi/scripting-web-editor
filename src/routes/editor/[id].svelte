@@ -16,6 +16,4 @@
 	:global(.cm-gutters) { margin: 1px; }
 	:global(.cm-scroller) { overflow: auto; }
 </style>
-<Editor>
-
-</Editor>
+<Editor />
