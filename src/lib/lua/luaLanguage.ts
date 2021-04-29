@@ -12,10 +12,15 @@ const parserWithMetadata = parser.configure({
 			Number: tags.number, 
 			CompareOp: tags.compareOperator,
 			"not": tags.operatorKeyword,
+			ArithOp: tags.arithmeticOperator,
+			BitOp: tags.bitwiseOperator,
 			Comment: tags.comment,
-			"for while if elseif else then end": tags.controlKeyword,
+			BlockComment: tags.blockComment,
+			Assign: tags.definitionOperator,
+			"for while do if elseif else then end return": tags.controlKeyword,
 			"local function": tags.definitionKeyword,
 			"true false": tags.bool,
+			"nil": tags.null,
 			Identifier: tags.variableName,
 			SingleString: tags.string,
 			Ellipsis: tags.punctuation,
@@ -35,7 +40,8 @@ const parserWithMetadata = parser.configure({
 export const luaLanguage = LezerLanguage.define({
 	parser: parserWithMetadata,
 	languageData: {
-		commentTokens: {line: "--"}
+		commentTokens: {line: "--", open: "--[[", close: "--]]"},
+		closeBrackets: {brackets: ["(", "[", "{", "'", '"', "`"]},
 	}
 })
 

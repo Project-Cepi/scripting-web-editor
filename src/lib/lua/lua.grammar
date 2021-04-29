@@ -20,7 +20,7 @@ Block { statement* ReturnStatement? }
 
 ReturnStatement { kw<"return"> exp? ";"?}
 
-@skip { newline | space | Comment }
+@skip { newline | space | Comment | BlockComment }
 
 statement[@isGroup=Statement] {
   ";" |
@@ -158,7 +158,13 @@ TableConstructor { "{" (field (fieldsep field) fieldsep?)? "}" }
   "..."[@name=Ellipsis]
   ".."[@name=Concat]
 
-  @precedence { Comment, minus }
+  BlockComment { "--[[" blockCommentRest }
+
+  blockCommentRest { ![*] blockCommentRest | "--" blockCommentAfterStar }
+
+  blockCommentAfterStar { "]]" | "--" blockCommentAfterStar | ![/--] blockCommentRest }
+
+  @precedence { BlockComment, Comment, minus }
 
   minus {"-"}
   fieldsep { $[,;] }
