@@ -2,6 +2,9 @@ import { LezerLanguage, LanguageSupport, foldNodeProp, foldInside, indentNodePro
 import { parser } from "./lua.js"
 import { styleTags, tags } from "@codemirror/highlight"
 import { completeFromList } from "@codemirror/autocomplete"
+import { luaParserLinter } from "./luaLint";
+import { linter } from "@codemirror/lint"
+import type { Extension } from "@codemirror/state";
 
 const parserWithMetadata = parser.configure({
 	props: [
@@ -38,16 +41,24 @@ export const luaLanguage = LezerLanguage.define({
 
 export const luaCompletion = luaLanguage.data.of({
 	autocomplete: completeFromList([
-		{ label: "defun", type: "keyword" },
-		{ label: "defvar", type: "keyword" },
-		{ label: "let", type: "keyword" },
-		{ label: "cons", type: "function" },
-		{ label: "car", type: "function" },
-		{ label: "cdr", type: "function" }
+		{ label: "not", type: "keyword" },
+		{ label: "for", type: "keyword" },
+		{ label: "while", type: "keyword" },
+		{ label: "else", type: "keyword" },
+		{ label: "elseif", type: "keyword" },
+		{ label: "else", type: "keyword" },
+		{ label: "then", type: "keyword" },
+		{ label: "end", type: "keyword" },
+		{ label: "function", type: "keyword" },
+		{ label: "local", type: "keyword" }
 	])
 })
 
 
 export function lua(): LanguageSupport {
 	return new LanguageSupport(luaLanguage, [luaCompletion])
+}
+
+export function luaLinter(): Extension {
+	return linter(luaParserLinter());
 }
