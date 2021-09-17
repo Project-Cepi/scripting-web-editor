@@ -31,7 +31,7 @@ specifiers:
   luaparse: 0.3.1
   prettier: 2.2.1
   prettier-plugin-svelte: 2.4.0
-  sass: 1.32.8
+  sass: 1.41.1
   svelte: 3.37.0
   svelte-preprocess: 4.7.0
   tslib: 2.3.1
@@ -73,9 +73,9 @@ devDependencies:
   lezer: 0.13.5
   prettier: 2.2.1
   prettier-plugin-svelte: 2.4.0_prettier@2.2.1+svelte@3.37.0
-  sass: 1.32.8
+  sass: 1.41.1
   svelte: 3.37.0
-  svelte-preprocess: 4.7.0_755c64f2becf501be7ee6738a692cc1e
+  svelte-preprocess: 4.7.0_3b754d95d184601ed20b832322eed043
   tslib: 2.3.1
   typescript: 4.2.4
   vite: 2.5.8
@@ -1462,8 +1462,8 @@ packages:
       mri: 1.1.6
     dev: true
 
-  /sass/1.32.8:
-    resolution: {integrity: sha512-Sl6mIeGpzjIUZqvKnKETfMf0iDAswD9TNlv13A7aAF3XZlRPMq4VvJWBC2N2DXbp94MQVdNSFG6LfF/iOXrPHQ==}
+  /sass/1.41.1:
+    resolution: {integrity: sha512-vIjX7izRxw3Wsiez7SX7D+j76v7tenfO18P59nonjr/nzCkZuoHuF7I/Fo0ZRZPKr88v29ivIdE9BqGDgQD/Nw==}
     engines: {node: '>=8.9.0'}
     hasBin: true
     dependencies:
@@ -1570,7 +1570,7 @@ packages:
       svelte: 3.37.0
     dev: true
 
-  /svelte-preprocess/4.7.0_755c64f2becf501be7ee6738a692cc1e:
+  /svelte-preprocess/4.7.0_3b754d95d184601ed20b832322eed043:
     resolution: {integrity: sha512-iNrY4YGqi0LD2e6oT9YbdSzOKntxk8gmzfqso1z/lUJOZh4o6fyIqkirmiZ8/dDJFqtIE1spVgDFWgkfhLEYlw==}
     engines: {node: '>= 9.11.2'}
     requiresBuild: true
@@ -1614,7 +1614,7 @@ packages:
       '@types/pug': 2.0.4
       '@types/sass': 1.16.0
       detect-indent: 6.0.0
-      sass: 1.32.8
+      sass: 1.41.1
       strip-indent: 3.0.0
       svelte: 3.37.0
       typescript: 4.2.4
