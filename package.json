@@ -28,26 +28,26 @@
 		"@codemirror/view": "0.18.6",
 		"@sveltejs/adapter-node": "next",
 		"@sveltejs/kit": "next",
-		"@typescript-eslint/eslint-plugin": "^4.19.0",
-		"@typescript-eslint/parser": "^4.19.0",
-		"eslint": "^7.22.0",
-		"eslint-config-prettier": "^8.1.0",
-		"eslint-plugin-svelte3": "^3.1.0",
-		"lezer": "^0.13.4",
-		"prettier": "~2.2.1",
-		"prettier-plugin-svelte": "^2.2.0",
-		"sass": "^1.0.0",
-		"svelte": "^3.29.0",
-		"svelte-preprocess": "^4.0.0",
-		"tslib": "^2.0.0",
-		"typescript": "^4.0.0",
-		"vite": "^2.1.0"
+		"@typescript-eslint/eslint-plugin": "4.21.0",
+		"@typescript-eslint/parser": "4.21.0",
+		"eslint": "7.24.0",
+		"eslint-config-prettier": "8.1.0",
+		"eslint-plugin-svelte3": "3.1.2",
+		"lezer": "0.13.4",
+		"prettier": "2.2.1",
+		"prettier-plugin-svelte": "2.2.0",
+		"sass": "1.32.8",
+		"svelte": "3.37.0",
+		"svelte-preprocess": "4.7.0",
+		"tslib": "2.2.0",
+		"typescript": "4.2.4",
+		"vite": "2.1.5"
 	},
 	"type": "module",
 	"dependencies": {
 		"@codemirror/collab": "0.18.2",
 		"@codemirror/legacy-modes": "0.18.1",
-		"luaparse": "^0.3.0",
-		"uuid-random": "^1.3.2"
+		"luaparse": "0.3.1",
+		"uuid-random": "1.3.2"
 	}
 }
