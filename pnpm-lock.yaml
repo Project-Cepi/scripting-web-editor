@@ -27,7 +27,7 @@ specifiers:
   eslint: 7.24.0
   eslint-config-prettier: 8.1.0
   eslint-plugin-svelte3: 3.2.1
-  lezer: 0.13.4
+  lezer: 0.13.5
   luaparse: 0.3.1
   prettier: 2.2.1
   prettier-plugin-svelte: 2.4.0
@@ -70,7 +70,7 @@ devDependencies:
   eslint: 7.24.0
   eslint-config-prettier: 8.1.0_eslint@7.24.0
   eslint-plugin-svelte3: 3.2.1_eslint@7.24.0+svelte@3.37.0
-  lezer: 0.13.4
+  lezer: 0.13.5
   prettier: 2.2.1
   prettier-plugin-svelte: 2.4.0_prettier@2.2.1+svelte@3.37.0
   sass: 1.32.8
@@ -1214,8 +1214,8 @@ packages:
     deprecated: This package has been replaced by @lezer/common
     dev: true
 
-  /lezer/0.13.4:
-    resolution: {integrity: sha512-cLQxUVY28VBBqKBt/R8CYeH57KQnIvscAnoahzvhlZTK8qxMkIyGExR6ecEpYYDX06ZhROZrEm1IiPvjLAsTig==}
+  /lezer/0.13.5:
+    resolution: {integrity: sha512-cAiMQZGUo2BD8mpcz7Nv1TlKzWP7YIdIRrX41CiP5bk5t4GHxskOxWUx2iAOuHlz8dO+ivbuXr0J1bfHsWD+lQ==}
     deprecated: This package has been replaced by @lezer/lr
     dependencies:
       lezer-tree: 0.13.2

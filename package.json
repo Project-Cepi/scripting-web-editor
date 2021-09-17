@@ -33,7 +33,7 @@
 		"eslint": "7.24.0",
 		"eslint-config-prettier": "8.1.0",
 		"eslint-plugin-svelte3": "3.2.1",
-		"lezer": "0.13.4",
+		"lezer": "0.13.5",
 		"prettier": "2.2.1",
 		"prettier-plugin-svelte": "2.4.0",
 		"sass": "1.32.8",
