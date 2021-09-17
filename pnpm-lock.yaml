@@ -30,7 +30,7 @@ specifiers:
   lezer: 0.13.4
   luaparse: 0.3.1
   prettier: 2.2.1
-  prettier-plugin-svelte: 2.2.0
+  prettier-plugin-svelte: 2.4.0
   sass: 1.32.8
   svelte: 3.37.0
   svelte-preprocess: 4.7.0
@@ -72,7 +72,7 @@ devDependencies:
   eslint-plugin-svelte3: 3.1.2_eslint@7.24.0+svelte@3.37.0
   lezer: 0.13.4
   prettier: 2.2.1
-  prettier-plugin-svelte: 2.2.0_prettier@2.2.1+svelte@3.37.0
+  prettier-plugin-svelte: 2.4.0_prettier@2.2.1+svelte@3.37.0
   sass: 1.32.8
   svelte: 3.37.0
   svelte-preprocess: 4.7.0_755c64f2becf501be7ee6738a692cc1e
@@ -1366,8 +1366,8 @@ packages:
     engines: {node: '>= 0.8.0'}
     dev: true
 
-  /prettier-plugin-svelte/2.2.0_prettier@2.2.1+svelte@3.37.0:
-    resolution: {integrity: sha512-Xdmqgr71tAuMqqzNCK52/v94g/Yv7V7lz+nmbO9NEA+9ol15VV3uUHOfydMNOo3SWvFaVlBcp947ebEaMWqVfQ==}
+  /prettier-plugin-svelte/2.4.0_prettier@2.2.1+svelte@3.37.0:
+    resolution: {integrity: sha512-JwJ9bOz4XHLQtiLnX4mTSSDUdhu12WH8sTwy/XTDCSyPlah6IcV7NWeYBZscPEcceu2YnW8Y9sJCP40Z2UH9GA==}
     peerDependencies:
       prettier: ^1.16.4 || ^2.0.0
       svelte: ^3.2.0
