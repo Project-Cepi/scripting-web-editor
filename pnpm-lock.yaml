@@ -22,27 +22,27 @@ specifiers:
   '@codemirror/view': 0.18.6
   '@sveltejs/adapter-node': next
   '@sveltejs/kit': next
-  '@typescript-eslint/eslint-plugin': ^4.19.0
-  '@typescript-eslint/parser': ^4.19.0
-  eslint: ^7.22.0
-  eslint-config-prettier: ^8.1.0
-  eslint-plugin-svelte3: ^3.1.0
-  lezer: ^0.13.4
-  luaparse: ^0.3.0
-  prettier: ~2.2.1
-  prettier-plugin-svelte: ^2.2.0
-  sass: ^1.0.0
-  svelte: ^3.29.0
-  svelte-preprocess: ^4.0.0
-  tslib: ^2.0.0
-  typescript: ^4.0.0
-  uuid-random: ^1.3.2
-  vite: ^2.1.0
+  '@typescript-eslint/eslint-plugin': 4.21.0
+  '@typescript-eslint/parser': 4.21.0
+  eslint: 7.24.0
+  eslint-config-prettier: 8.1.0
+  eslint-plugin-svelte3: 3.1.2
+  lezer: 0.13.4
+  luaparse: 0.3.1
+  prettier: 2.2.1
+  prettier-plugin-svelte: 2.2.0
+  sass: 1.32.8
+  svelte: 3.37.0
+  svelte-preprocess: 4.7.0
+  tslib: 2.2.0
+  typescript: 4.2.4
+  uuid-random: 1.3.2
+  vite: 2.1.5
 
 dependencies:
   '@codemirror/collab': 0.18.2
   '@codemirror/legacy-modes': 0.18.1
-  luaparse: 0.3.0
+  luaparse: 0.3.1
   uuid-random: 1.3.2
 
 devDependencies:
@@ -320,7 +320,7 @@ packages:
     engines: {node: ^10.12.0 || >=12.0.0}
     dependencies:
       ajv: 6.12.6
-      debug: 4.3.1
+      debug: 4.3.2
       espree: 7.3.1
       globals: 12.4.0
       ignore: 4.0.6
@@ -440,7 +440,7 @@ packages:
       '@typescript-eslint/experimental-utils': 4.21.0_eslint@7.24.0+typescript@4.2.4
       '@typescript-eslint/parser': 4.21.0_eslint@7.24.0+typescript@4.2.4
       '@typescript-eslint/scope-manager': 4.21.0
-      debug: 4.3.1
+      debug: 4.3.2
       eslint: 7.24.0
       functional-red-black-tree: 1.0.1
       lodash: 4.17.21
@@ -483,7 +483,7 @@ packages:
       '@typescript-eslint/scope-manager': 4.21.0
       '@typescript-eslint/types': 4.21.0
       '@typescript-eslint/typescript-estree': 4.21.0_typescript@4.2.4
-      debug: 4.3.1
+      debug: 4.3.2
       eslint: 7.24.0
       typescript: 4.2.4
     transitivePeerDependencies:
@@ -514,7 +514,7 @@ packages:
     dependencies:
       '@typescript-eslint/types': 4.21.0
       '@typescript-eslint/visitor-keys': 4.21.0
-      debug: 4.3.1
+      debug: 4.3.2
       globby: 11.0.3
       is-glob: 4.0.1
       semver: 7.3.5
@@ -726,18 +726,6 @@ packages:
       which: 2.0.2
     dev: true
 
-  /debug/4.3.1:
-    resolution: {integrity: sha512-doEwdvm4PCeK4K3RQN2ZC2BYUBaxwLARCqZmMjtF8a51J2Rb0xpVloFRnCODwqjpwnAoao4pelN8l3RJdv3gRQ==}
-    engines: {node: '>=6.0'}
-    peerDependencies:
-      supports-color: '*'
-    peerDependenciesMeta:
-      supports-color:
-        optional: true
-    dependencies:
-      ms: 2.1.2
-    dev: true
-
   /debug/4.3.2:
     resolution: {integrity: sha512-mOp8wKcvj7XxC78zLgw/ZA+6TSgkoE2C/ienthhRD298T7UNwAg9diBpLRxC0mOezLl4B0xV7M0cCO6P/O0Xhw==}
     engines: {node: '>=6.0'}
@@ -856,7 +844,7 @@ packages:
       ajv: 6.12.6
       chalk: 4.1.0
       cross-spawn: 7.0.3
-      debug: 4.3.1
+      debug: 4.3.2
       doctrine: 3.0.0
       enquirer: 2.3.6
       eslint-scope: 5.1.1
@@ -1231,6 +1219,7 @@ packages:
 
   /lezer/0.13.4:
     resolution: {integrity: sha512-cLQxUVY28VBBqKBt/R8CYeH57KQnIvscAnoahzvhlZTK8qxMkIyGExR6ecEpYYDX06ZhROZrEm1IiPvjLAsTig==}
+    deprecated: This package has been replaced by @lezer/lr
     dependencies:
       lezer-tree: 0.13.2
 
@@ -1257,8 +1246,8 @@ packages:
       yallist: 4.0.0
     dev: true
 
-  /luaparse/0.3.0:
-    resolution: {integrity: sha512-hrRXc3QJfZ0BfgOGgNfFaKM01zCjSP2y000WOG4jwl3s06vKzODIfqJ3QKSm64mS52ROpnRnfi756jJbDr59fw==}
+  /luaparse/0.3.1:
+    resolution: {integrity: sha512-b21h2bFEbtGXmVqguHogbyrMAA0wOHyp9u/rx+w6Yc9pW1t9YjhGUsp87lYcp7pFRqSWN/PhFkrdIqKEUzRjjQ==}
     hasBin: true
     dev: false
 
@@ -1299,12 +1288,6 @@ packages:
 
   /ms/2.1.2:
     resolution: {integrity: sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==}
-    dev: true
-
-  /nanoid/3.1.22:
-    resolution: {integrity: sha512-/2ZUaJX2ANuLtTvqTlgqBQNJoQO398KyJgZloL0PZkC0dpysjncRUPsFe3DUPzz/y3h+u7C46np8RMuvF3jsSQ==}
-    engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
-    hasBin: true
     dev: true
 
   /nanoid/3.1.25:
@@ -1369,15 +1352,6 @@ packages:
   /picomatch/2.2.3:
     resolution: {integrity: sha512-KpELjfwcCDUb9PeigTs2mBJzXUPzAuP2oPcA989He8Rte0+YUAjw1JVedDhuTKPkHjSYzMN3npC9luThGYEKdg==}
     engines: {node: '>=8.6'}
-    dev: true
-
-  /postcss/8.2.10:
-    resolution: {integrity: sha512-b/h7CPV7QEdrqIxtAf2j31U5ef05uBDuvoXv6L51Q4rcS1jdlXAVKJv+atCFdUXYl9dyTHGyoMzIepwowRJjFw==}
-    engines: {node: ^10 || ^12 || >=14}
-    dependencies:
-      colorette: 1.2.2
-      nanoid: 3.1.22
-      source-map: 0.6.1
     dev: true
 
   /postcss/8.3.6:
@@ -1534,11 +1508,6 @@ packages:
 
   /source-map-js/0.6.2:
     resolution: {integrity: sha512-/3GptzWzu0+0MBQFrDKzw/DvvMTUORvgY6k6jd/VS6iCR4RDTKWH6v6WPwQoUO8667uQEf9Oe38DxAYWY5F/Ug==}
-    engines: {node: '>=0.10.0'}
-    dev: true
-
-  /source-map/0.6.1:
-    resolution: {integrity: sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==}
     engines: {node: '>=0.10.0'}
     dev: true
 
@@ -1752,7 +1721,7 @@ packages:
     hasBin: true
     dependencies:
       esbuild: 0.9.7
-      postcss: 8.2.10
+      postcss: 8.3.6
       resolve: 1.20.0
       rollup: 2.45.1
     optionalDependencies:
