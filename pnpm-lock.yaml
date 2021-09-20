@@ -33,7 +33,7 @@ specifiers:
   prettier-plugin-svelte: 2.4.0
   sass: 1.41.1
   svelte: 3.42.6
-  svelte-preprocess: 4.9.4
+  svelte-preprocess: 4.9.5
   tslib: 2.3.1
   typescript: 4.4.3
   uuid-random: 1.3.2
@@ -75,7 +75,7 @@ devDependencies:
   prettier-plugin-svelte: 2.4.0_prettier@2.4.1+svelte@3.42.6
   sass: 1.41.1
   svelte: 3.42.6
-  svelte-preprocess: 4.9.4_b172ce52e03abc70908bb2e09eae78a1
+  svelte-preprocess: 4.9.5_b172ce52e03abc70908bb2e09eae78a1
   tslib: 2.3.1
   typescript: 4.4.3
   vite: 2.5.10
@@ -1642,8 +1642,8 @@ packages:
       svelte: 3.42.6
     dev: true
 
-  /svelte-preprocess/4.9.4_b172ce52e03abc70908bb2e09eae78a1:
-    resolution: {integrity: sha512-Z0mUQBGtE+ZZSv/HerRSHe7ukJokxjiPeHe7iPOIXseEoRw51H3K/Vh6OMIMstetzZ11vWO9rCsXSD/uUUArmA==}
+  /svelte-preprocess/4.9.5_b172ce52e03abc70908bb2e09eae78a1:
+    resolution: {integrity: sha512-RbJbtuwKbuZq9RyzlljZUmmFNaojrg/zUEyDrS8io7haTcuITQmE4NERx8qiqHreApo6cQst5Qtp4MxUwr58Ew==}
     engines: {node: '>= 9.11.2'}
     requiresBuild: true
     peerDependencies:
