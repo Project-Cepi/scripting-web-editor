@@ -14,7 +14,7 @@ specifiers:
   '@codemirror/language': 0.19.3
   '@codemirror/legacy-modes': 0.19.0
   '@codemirror/lint': 0.19.1
-  '@codemirror/matchbrackets': 0.19.2
+  '@codemirror/matchbrackets': 0.19.3
   '@codemirror/rectangular-selection': 0.19.0
   '@codemirror/search': 0.19.2
   '@codemirror/state': 0.19.2
@@ -57,14 +57,14 @@ devDependencies:
   '@codemirror/history': 0.19.0
   '@codemirror/language': 0.19.3
   '@codemirror/lint': 0.19.1
-  '@codemirror/matchbrackets': 0.19.2
+  '@codemirror/matchbrackets': 0.19.3
   '@codemirror/rectangular-selection': 0.19.0
   '@codemirror/search': 0.19.2
   '@codemirror/state': 0.19.2
   '@codemirror/stream-parser': 0.19.2
   '@codemirror/view': 0.19.8
   '@sveltejs/adapter-node': 1.0.0-next.51
-  '@sveltejs/kit': 1.0.0-next.174_svelte@3.43.0
+  '@sveltejs/kit': 1.0.0-next.176_svelte@3.43.0
   '@typescript-eslint/eslint-plugin': 4.32.0_1eacf2495a01e8a68ffa99482308e8ec
   '@typescript-eslint/parser': 4.32.0_eslint@7.32.0+typescript@4.4.3
   eslint: 7.32.0
@@ -257,12 +257,12 @@ packages:
       '@lezer/common': 0.15.5
     dev: true
 
-  /@codemirror/matchbrackets/0.19.2:
-    resolution: {integrity: sha512-gei8qArf0dQsItYRe1153CCtYIoPNHvFICUz3/QLgEit2gAhmGIGH713nSDDYCyNoPGnJmfomaAsmGO8E9uLyg==}
+  /@codemirror/matchbrackets/0.19.3:
+    resolution: {integrity: sha512-ljkrBxaLgh8jesroUiBa57pdEwqJamxkukXrJpL9LdyFZVJaF+9TldhztRaMsMZO1XnCSSHQ9sg32iuHo7Sc2g==}
     dependencies:
       '@codemirror/language': 0.19.3
       '@codemirror/state': 0.19.2
-      '@codemirror/view': 0.19.7
+      '@codemirror/view': 0.19.8
       '@lezer/common': 0.15.5
     dev: true
 
@@ -417,8 +417,8 @@ packages:
       tiny-glob: 0.2.9
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.174_svelte@3.43.0:
-    resolution: {integrity: sha512-Kgtz5kZTyPnpPb8pjMMOo+uTDRBkiObRLnFaBDnYFd2ahUuhAPHHPlbcIDwO5psN4t6UbPdpdkoLNCAyDgBLdw==}
+  /@sveltejs/kit/1.0.0-next.176_svelte@3.43.0:
+    resolution: {integrity: sha512-aFwZ1PjOcxOSAX93Py3jfJBgZgWmANO5Vt2fb8abvNGLTA/d6VVArdPXSccaSxLYCGmgzvx+CAr8P+P8FcJ+Ng==}
     engines: {node: ^12.20 || >=14.13}
     hasBin: true
     peerDependencies:
