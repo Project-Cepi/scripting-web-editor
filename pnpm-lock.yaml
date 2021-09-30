@@ -37,7 +37,7 @@ specifiers:
   tslib: 2.3.1
   typescript: 4.4.3
   uuid-random: 1.3.2
-  vite: 2.6.1
+  vite: 2.6.2
 
 dependencies:
   '@codemirror/collab': 0.19.0
@@ -78,7 +78,7 @@ devDependencies:
   svelte-preprocess: 4.9.7_e4d174f1a3c6f6c9a7413fc1fdd258af
   tslib: 2.3.1
   typescript: 4.4.3
-  vite: 2.6.1_sass@1.42.1
+  vite: 2.6.2_sass@1.42.1
 
 packages:
 
@@ -434,11 +434,11 @@ packages:
     peerDependencies:
       svelte: ^3.43.0
     dependencies:
-      '@sveltejs/vite-plugin-svelte': 1.0.0-next.26_svelte@3.43.1+vite@2.6.1
+      '@sveltejs/vite-plugin-svelte': 1.0.0-next.26_svelte@3.43.1+vite@2.6.2
       cheap-watch: 1.0.4
       sade: 1.7.4
       svelte: 3.43.1
-      vite: 2.6.1_sass@1.42.1
+      vite: 2.6.2_sass@1.42.1
     transitivePeerDependencies:
       - diff-match-patch
       - less
@@ -447,7 +447,7 @@ packages:
       - supports-color
     dev: true
 
-  /@sveltejs/vite-plugin-svelte/1.0.0-next.26_svelte@3.43.1+vite@2.6.1:
+  /@sveltejs/vite-plugin-svelte/1.0.0-next.26_svelte@3.43.1+vite@2.6.2:
     resolution: {integrity: sha512-+Rx3IBa4disskQmr+0/Rh+NYavkM6Vi8BnkTGjKnblawysw4INXkq2WEQBp8luGpUZEkjwczdL9Z9Q2hISvIeA==}
     engines: {node: ^12.20 || ^14.13.1 || >= 16}
     peerDependencies:
@@ -465,7 +465,7 @@ packages:
       require-relative: 0.8.7
       svelte: 3.43.1
       svelte-hmr: 0.14.7_svelte@3.43.1
-      vite: 2.6.1_sass@1.42.1
+      vite: 2.6.2_sass@1.42.1
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -1982,8 +1982,8 @@ packages:
     resolution: {integrity: sha512-l8lCEmLcLYZh4nbunNZvQCJc5pv7+RCwa8q/LdUx8u7lsWvPDKmpodJAJNwkAhJC//dFY48KuIEmjtd4RViDrA==}
     dev: true
 
-  /vite/2.6.1_sass@1.42.1:
-    resolution: {integrity: sha512-rYd+iGMQ+AytWfYBDhIz2upeiseuqrAMwmApJDR40wu12C9MqzemX449nM3FN1Z/FFSV+fMTFz7eMenngVSogA==}
+  /vite/2.6.2_sass@1.42.1:
+    resolution: {integrity: sha512-HSIg9U15LOnbD3CUxX364Pdrm7DUjftuBljowGxvkFHgDZU/SKPqApg9t86MX/Qq1VCO7wS+mGJHlfuTF7c0Sg==}
     engines: {node: '>=12.2.0'}
     hasBin: true
     peerDependencies:
