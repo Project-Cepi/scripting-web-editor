@@ -33,7 +33,7 @@ specifiers:
   prettier-plugin-svelte: 2.4.0
   sass: 1.42.1
   svelte: 3.43.1
-  svelte-preprocess: 4.9.7
+  svelte-preprocess: 4.9.8
   tslib: 2.3.1
   typescript: 4.4.3
   uuid-random: 1.3.2
@@ -63,8 +63,8 @@ devDependencies:
   '@codemirror/state': 0.19.2
   '@codemirror/stream-parser': 0.19.2
   '@codemirror/view': 0.19.9
-  '@sveltejs/adapter-node': 1.0.0-next.52
-  '@sveltejs/kit': 1.0.0-next.178_sass@1.42.1+svelte@3.43.1
+  '@sveltejs/adapter-node': 1.0.0-next.53
+  '@sveltejs/kit': 1.0.0-next.179_sass@1.42.1+svelte@3.43.1
   '@typescript-eslint/eslint-plugin': 4.32.0_1eacf2495a01e8a68ffa99482308e8ec
   '@typescript-eslint/parser': 4.32.0_eslint@7.32.0+typescript@4.4.3
   eslint: 7.32.0
@@ -75,7 +75,7 @@ devDependencies:
   prettier-plugin-svelte: 2.4.0_prettier@2.4.1+svelte@3.43.1
   sass: 1.42.1
   svelte: 3.43.1
-  svelte-preprocess: 4.9.7_e4d174f1a3c6f6c9a7413fc1fdd258af
+  svelte-preprocess: 4.9.8_e4d174f1a3c6f6c9a7413fc1fdd258af
   tslib: 2.3.1
   typescript: 4.4.3
   vite: 2.6.2_sass@1.42.1
@@ -442,15 +442,15 @@ packages:
       picomatch: 2.2.3
     dev: true
 
-  /@sveltejs/adapter-node/1.0.0-next.52:
-    resolution: {integrity: sha512-LKf509w78MkaQnc6XK3kh5mvzhkIF7mByhC1XQY5L0Ufq7rZaTpnbddqmBlBjiYR6ukC6O+/vUGrsgLNZxK5Aw==}
+  /@sveltejs/adapter-node/1.0.0-next.53:
+    resolution: {integrity: sha512-fovlQ+DPeAvkYqi+BXG48A4U1Dz2YzQXi3fG8Qs9zGAGnX22cx3ldZMThdDcOakwDmQodMYatK8cSBxuP0GAkA==}
     dependencies:
       esbuild: 0.13.3
       tiny-glob: 0.2.9
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.178_sass@1.42.1+svelte@3.43.1:
-    resolution: {integrity: sha512-Hai7bqZkn4JQMQwh8gUMJEbyBeRPIx1oQUhGZjHlH4yIqVf2Oz9Nf4FkGcQAa5eGF907qRhE/gghPpsZk6KkeQ==}
+  /@sveltejs/kit/1.0.0-next.179_sass@1.42.1+svelte@3.43.1:
+    resolution: {integrity: sha512-yKo7rkr6NZq0fmHAiJThDH+BZEccWm2dAS3P6h2esak0VyT8NuSQIHViYn8b5VJoFf3yEHf8dSHsgYdSk+K4+Q==}
     engines: {node: ^12.20 || >=14.13}
     hasBin: true
     peerDependencies:
@@ -1864,8 +1864,8 @@ packages:
       svelte: 3.43.1
     dev: true
 
-  /svelte-preprocess/4.9.7_e4d174f1a3c6f6c9a7413fc1fdd258af:
-    resolution: {integrity: sha512-jPiizMqGTp4X3Hv00qTPbGH2r5khuqNazzlqSXZNJKo44nLVQYMyDYM1rOq3MRrzCs5Xk3J48k67u8c6fGBsvQ==}
+  /svelte-preprocess/4.9.8_e4d174f1a3c6f6c9a7413fc1fdd258af:
+    resolution: {integrity: sha512-EQS/oRZzMtYdAprppZxY3HcysKh11w54MgA63ybtL+TAZ4hVqYOnhw41JVJjWN9dhPnNjjLzvbZ2tMhTsla1Og==}
     engines: {node: '>= 9.11.2'}
     requiresBuild: true
     peerDependencies:
