@@ -8,7 +8,7 @@ specifiers:
   '@codemirror/commands': 0.19.5
   '@codemirror/comment': 0.19.0
   '@codemirror/fold': 0.19.0
-  '@codemirror/gutter': 0.19.2
+  '@codemirror/gutter': 0.19.3
   '@codemirror/highlight': 0.19.6
   '@codemirror/history': 0.19.0
   '@codemirror/language': 0.19.3
@@ -52,7 +52,7 @@ devDependencies:
   '@codemirror/commands': 0.19.5
   '@codemirror/comment': 0.19.0
   '@codemirror/fold': 0.19.0
-  '@codemirror/gutter': 0.19.2
+  '@codemirror/gutter': 0.19.3
   '@codemirror/highlight': 0.19.6
   '@codemirror/history': 0.19.0
   '@codemirror/language': 0.19.3
@@ -64,7 +64,7 @@ devDependencies:
   '@codemirror/stream-parser': 0.19.2
   '@codemirror/view': 0.19.9
   '@sveltejs/adapter-node': 1.0.0-next.55
-  '@sveltejs/kit': 1.0.0-next.188_sass@1.43.3+svelte@3.44.0
+  '@sveltejs/kit': 1.0.0-next.189_sass@1.43.3+svelte@3.44.0
   '@typescript-eslint/eslint-plugin': 5.1.0_273a00ec265649c49755eee7222c1c12
   '@typescript-eslint/parser': 5.1.0_eslint@8.1.0+typescript@4.4.4
   eslint: 8.1.0
@@ -101,7 +101,7 @@ packages:
       '@codemirror/commands': 0.19.4
       '@codemirror/comment': 0.19.0
       '@codemirror/fold': 0.19.0
-      '@codemirror/gutter': 0.19.2
+      '@codemirror/gutter': 0.19.3
       '@codemirror/highlight': 0.19.5
       '@codemirror/history': 0.19.0
       '@codemirror/language': 0.19.3
@@ -136,7 +136,7 @@ packages:
       '@codemirror/matchbrackets': 0.19.1
       '@codemirror/state': 0.19.2
       '@codemirror/text': 0.19.3
-      '@codemirror/view': 0.19.7
+      '@codemirror/view': 0.19.9
       '@lezer/common': 0.15.5
     dev: true
 
@@ -162,19 +162,19 @@ packages:
   /@codemirror/fold/0.19.0:
     resolution: {integrity: sha512-cHbr2hqKe2pMls1Ia1a4IwXly87ljpmvPUKkul6H/Uv9kCwpQLOP3dGMPXbMGm/1hGjBF/0wnc+m2iba9iJBTQ==}
     dependencies:
-      '@codemirror/gutter': 0.19.2
+      '@codemirror/gutter': 0.19.3
       '@codemirror/language': 0.19.3
       '@codemirror/rangeset': 0.19.1
       '@codemirror/state': 0.19.2
       '@codemirror/view': 0.19.7
     dev: true
 
-  /@codemirror/gutter/0.19.2:
-    resolution: {integrity: sha512-xiayxhc9uq1UXiG/r/E3AAYXZt+EtSdgdQXC4nlMHvbfw2EmtryfzGO3HrgasHRyAW8uNCaO9JO4n7mU7rm1rQ==}
+  /@codemirror/gutter/0.19.3:
+    resolution: {integrity: sha512-0lsW7Mbucs/CFmYaOJ8RYWmP1zI7sBdn/dseTL61TXS7TcCEw3X8XZtG4Fs2NL/dJ2CtW4fz3PHlQOyJZGsGCg==}
     dependencies:
       '@codemirror/rangeset': 0.19.1
       '@codemirror/state': 0.19.2
-      '@codemirror/view': 0.19.7
+      '@codemirror/view': 0.19.9
     dev: true
 
   /@codemirror/highlight/0.19.5:
@@ -183,7 +183,7 @@ packages:
       '@codemirror/language': 0.19.3
       '@codemirror/rangeset': 0.19.1
       '@codemirror/state': 0.19.2
-      '@codemirror/view': 0.19.7
+      '@codemirror/view': 0.19.9
       '@lezer/common': 0.15.5
       style-mod: 4.0.0
 
@@ -226,7 +226,7 @@ packages:
       '@codemirror/panel': 0.19.0
       '@codemirror/state': 0.19.2
       '@codemirror/tooltip': 0.19.2
-      '@codemirror/view': 0.19.7
+      '@codemirror/view': 0.19.9
       crelt: 1.0.5
     dev: true
 
@@ -245,7 +245,7 @@ packages:
     dependencies:
       '@codemirror/language': 0.19.3
       '@codemirror/state': 0.19.2
-      '@codemirror/view': 0.19.7
+      '@codemirror/view': 0.19.9
       '@lezer/common': 0.15.5
     dev: true
 
@@ -262,7 +262,7 @@ packages:
     resolution: {integrity: sha512-LJuu49xnuhaAztlhnLJQ57ddOirSyf8/lnl7twsQUG/05RkxodBZ9F7q8r5AOLqOkaQOy9WySEKX1Ur8lD9Q5w==}
     dependencies:
       '@codemirror/state': 0.19.2
-      '@codemirror/view': 0.19.8
+      '@codemirror/view': 0.19.9
     dev: true
 
   /@codemirror/rangeset/0.19.1:
@@ -275,7 +275,7 @@ packages:
     dependencies:
       '@codemirror/state': 0.19.2
       '@codemirror/text': 0.19.3
-      '@codemirror/view': 0.19.7
+      '@codemirror/view': 0.19.9
     dev: true
 
   /@codemirror/rectangular-selection/0.19.1:
@@ -323,7 +323,7 @@ packages:
     resolution: {integrity: sha512-FMMGGLrr62Ck54NEz8yTGpgo8ihobAsC3sbeQg+OpY4jv9dt1yIP5B9LzsIV+TXQB57JZQZxtTqzkhnFq76haw==}
     dependencies:
       '@codemirror/state': 0.19.2
-      '@codemirror/view': 0.19.8
+      '@codemirror/view': 0.19.9
     dev: true
 
   /@codemirror/view/0.19.7:
@@ -353,7 +353,6 @@ packages:
       '@codemirror/text': 0.19.3
       style-mod: 4.0.0
       w3c-keyname: 2.2.4
-    dev: true
 
   /@eslint/eslintrc/1.0.3:
     resolution: {integrity: sha512-DHI1wDPoKCBPoLZA3qDR91+3te/wDSc1YhKg3jR8NxKKRJq2hwHwcWv31cSwSYvIBrmbENoYMWcenW8uproQqg==}
@@ -431,8 +430,8 @@ packages:
       tiny-glob: 0.2.9
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.188_sass@1.43.3+svelte@3.44.0:
-    resolution: {integrity: sha512-eDssOlwcAmkUR3SGh3PK4LHBfV3mMY9vhsMohMUPV7oJO3fydOgvDykqzxK9wc1NgNB/TIBCm+1sps2vetePHw==}
+  /@sveltejs/kit/1.0.0-next.189_sass@1.43.3+svelte@3.44.0:
+    resolution: {integrity: sha512-Vmd6Oq/fI5M7LEJjXd+AOoTy7ICNT7+4rAMJttyeMjqmRhQ0i5h+NgBoVOQE1L3fwUNZtdW2ucUm+MMa9ZPTpw==}
     engines: {node: '>=14.13'}
     hasBin: true
     peerDependencies:
