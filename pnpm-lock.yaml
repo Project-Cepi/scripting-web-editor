@@ -7,7 +7,7 @@ specifiers:
   '@codemirror/collab': 0.19.0
   '@codemirror/commands': 0.19.5
   '@codemirror/comment': 0.19.0
-  '@codemirror/fold': 0.19.0
+  '@codemirror/fold': 0.19.1
   '@codemirror/gutter': 0.19.3
   '@codemirror/highlight': 0.19.6
   '@codemirror/history': 0.19.0
@@ -51,7 +51,7 @@ devDependencies:
   '@codemirror/closebrackets': 0.19.0
   '@codemirror/commands': 0.19.5
   '@codemirror/comment': 0.19.0
-  '@codemirror/fold': 0.19.0
+  '@codemirror/fold': 0.19.1
   '@codemirror/gutter': 0.19.3
   '@codemirror/highlight': 0.19.6
   '@codemirror/history': 0.19.0
@@ -100,7 +100,7 @@ packages:
       '@codemirror/closebrackets': 0.19.0
       '@codemirror/commands': 0.19.4
       '@codemirror/comment': 0.19.0
-      '@codemirror/fold': 0.19.0
+      '@codemirror/fold': 0.19.1
       '@codemirror/gutter': 0.19.3
       '@codemirror/highlight': 0.19.5
       '@codemirror/history': 0.19.0
@@ -159,14 +159,14 @@ packages:
       '@codemirror/view': 0.19.7
     dev: true
 
-  /@codemirror/fold/0.19.0:
-    resolution: {integrity: sha512-cHbr2hqKe2pMls1Ia1a4IwXly87ljpmvPUKkul6H/Uv9kCwpQLOP3dGMPXbMGm/1hGjBF/0wnc+m2iba9iJBTQ==}
+  /@codemirror/fold/0.19.1:
+    resolution: {integrity: sha512-3GwQpxgv03urb8BPBvX1JSjl+uMXKqngRG6qHZXSM2FefxFKvTuyL44MCb35aodtfKjGwoxizk+7b6CbAOLyOw==}
     dependencies:
       '@codemirror/gutter': 0.19.3
       '@codemirror/language': 0.19.3
       '@codemirror/rangeset': 0.19.1
       '@codemirror/state': 0.19.2
-      '@codemirror/view': 0.19.7
+      '@codemirror/view': 0.19.9
     dev: true
 
   /@codemirror/gutter/0.19.3:
