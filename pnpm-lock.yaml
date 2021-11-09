@@ -13,7 +13,7 @@ specifiers:
   '@codemirror/history': 0.19.0
   '@codemirror/language': 0.19.3
   '@codemirror/legacy-modes': 0.19.0
-  '@codemirror/lint': 0.19.2
+  '@codemirror/lint': 0.19.3
   '@codemirror/matchbrackets': 0.19.3
   '@codemirror/rectangular-selection': 0.19.1
   '@codemirror/search': 0.19.2
@@ -56,7 +56,7 @@ devDependencies:
   '@codemirror/highlight': 0.19.6
   '@codemirror/history': 0.19.0
   '@codemirror/language': 0.19.3
-  '@codemirror/lint': 0.19.2
+  '@codemirror/lint': 0.19.3
   '@codemirror/matchbrackets': 0.19.3
   '@codemirror/rectangular-selection': 0.19.1
   '@codemirror/search': 0.19.2
@@ -105,7 +105,7 @@ packages:
       '@codemirror/highlight': 0.19.5
       '@codemirror/history': 0.19.0
       '@codemirror/language': 0.19.3
-      '@codemirror/lint': 0.19.1
+      '@codemirror/lint': 0.19.3
       '@codemirror/matchbrackets': 0.19.1
       '@codemirror/rectangular-selection': 0.19.0
       '@codemirror/search': 0.19.2
@@ -220,22 +220,14 @@ packages:
       '@codemirror/stream-parser': 0.19.2
     dev: false
 
-  /@codemirror/lint/0.19.1:
-    resolution: {integrity: sha512-Ef0TnXpF4Q4B+lvBdgHexe1dHbvkKBvBHsLB8HwTYffwjekg1YvEM+6zyjyjG9m6s1Ru0VaCNlNwotLaVZjHGQ==}
+  /@codemirror/lint/0.19.3:
+    resolution: {integrity: sha512-+c39s05ybD2NjghxkPFsUbH/qBL0cdzKmtHbzUm0RVspeL2OiP7uHYJ6J5+Qr9RjMIPWzcqSauRqxfmCrctUfg==}
     dependencies:
+      '@codemirror/gutter': 0.19.4
       '@codemirror/panel': 0.19.0
+      '@codemirror/rangeset': 0.19.1
       '@codemirror/state': 0.19.4
-      '@codemirror/tooltip': 0.19.2
-      '@codemirror/view': 0.19.14
-      crelt: 1.0.5
-    dev: true
-
-  /@codemirror/lint/0.19.2:
-    resolution: {integrity: sha512-477qvXWwuf24YsBi1DzjrGyzM+qfPe5L4xEHGxQTGOMq6R0+QAFKppOJsxN3y7gzDpLrZSYZdhJzWevOuliZQg==}
-    dependencies:
-      '@codemirror/panel': 0.19.0
-      '@codemirror/state': 0.19.4
-      '@codemirror/tooltip': 0.19.2
+      '@codemirror/tooltip': 0.19.6
       '@codemirror/view': 0.19.14
       crelt: 1.0.5
     dev: true
@@ -320,6 +312,13 @@ packages:
 
   /@codemirror/tooltip/0.19.2:
     resolution: {integrity: sha512-FMMGGLrr62Ck54NEz8yTGpgo8ihobAsC3sbeQg+OpY4jv9dt1yIP5B9LzsIV+TXQB57JZQZxtTqzkhnFq76haw==}
+    dependencies:
+      '@codemirror/state': 0.19.4
+      '@codemirror/view': 0.19.14
+    dev: true
+
+  /@codemirror/tooltip/0.19.6:
+    resolution: {integrity: sha512-a2xBVsk6JiLXpbMUfAM5pA+K7Om+7U7zlm1rBg0LaOez+3r9tiB2T0aw+IBKWOzAHKV3EwFbM7dwclUZBBYBfg==}
     dependencies:
       '@codemirror/state': 0.19.4
       '@codemirror/view': 0.19.14
