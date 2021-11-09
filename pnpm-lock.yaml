@@ -1,7 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@codemirror/autocomplete': 0.19.4
+  '@codemirror/autocomplete': 0.19.5
   '@codemirror/basic-setup': 0.19.0
   '@codemirror/closebrackets': 0.19.0
   '@codemirror/collab': 0.19.0
@@ -46,7 +46,7 @@ dependencies:
   uuid-random: 1.3.2
 
 devDependencies:
-  '@codemirror/autocomplete': 0.19.4
+  '@codemirror/autocomplete': 0.19.5
   '@codemirror/basic-setup': 0.19.0
   '@codemirror/closebrackets': 0.19.0
   '@codemirror/commands': 0.19.5
@@ -82,13 +82,13 @@ devDependencies:
 
 packages:
 
-  /@codemirror/autocomplete/0.19.4:
-    resolution: {integrity: sha512-Wuuf4xZ9opIpUwMvxFMknC1C202qtTx1q5bS1GuMnTK4lBYoG+tekpAqlLBF3x6fEe2+fw6dRLwYTigtCuS7pQ==}
+  /@codemirror/autocomplete/0.19.5:
+    resolution: {integrity: sha512-4ZP9hUaGKw5iSeOMwBv3Qa5fZO8puuna7eDwB8jjRPOtxW4X6e2LY8SmsNSp3ZLXsrhUAOt8urNqv1jBp7SxqA==}
     dependencies:
       '@codemirror/language': 0.19.3
       '@codemirror/state': 0.19.4
       '@codemirror/text': 0.19.4
-      '@codemirror/tooltip': 0.19.2
+      '@codemirror/tooltip': 0.19.6
       '@codemirror/view': 0.19.14
       '@lezer/common': 0.15.5
     dev: true
@@ -96,7 +96,7 @@ packages:
   /@codemirror/basic-setup/0.19.0:
     resolution: {integrity: sha512-Yhrf7fIz8+INHWOhpWeRwbs8fpc0KsydX9baD7TyYqniLVWyTi0Hwm52mr0f5O+k4YaJPeHAgT3x9gzDXZIvOw==}
     dependencies:
-      '@codemirror/autocomplete': 0.19.4
+      '@codemirror/autocomplete': 0.19.5
       '@codemirror/closebrackets': 0.19.0
       '@codemirror/commands': 0.19.4
       '@codemirror/comment': 0.19.0
@@ -309,13 +309,6 @@ packages:
 
   /@codemirror/text/0.19.4:
     resolution: {integrity: sha512-Msd1ImS+Mmref28+oyoOrBwqjH4lbCVO/5ol2jRaCEYH7+KaMocxFADZomPLnMPgDW6Gc4mu/K2lj8IjAOFdTA==}
-
-  /@codemirror/tooltip/0.19.2:
-    resolution: {integrity: sha512-FMMGGLrr62Ck54NEz8yTGpgo8ihobAsC3sbeQg+OpY4jv9dt1yIP5B9LzsIV+TXQB57JZQZxtTqzkhnFq76haw==}
-    dependencies:
-      '@codemirror/state': 0.19.4
-      '@codemirror/view': 0.19.14
-    dev: true
 
   /@codemirror/tooltip/0.19.6:
     resolution: {integrity: sha512-a2xBVsk6JiLXpbMUfAM5pA+K7Om+7U7zlm1rBg0LaOez+3r9tiB2T0aw+IBKWOzAHKV3EwFbM7dwclUZBBYBfg==}
