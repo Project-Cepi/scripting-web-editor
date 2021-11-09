@@ -19,7 +19,7 @@ specifiers:
   '@codemirror/search': 0.19.2
   '@codemirror/state': 0.19.4
   '@codemirror/stream-parser': 0.19.2
-  '@codemirror/view': 0.19.14
+  '@codemirror/view': 0.19.15
   '@sveltejs/adapter-node': next
   '@sveltejs/kit': next
   '@typescript-eslint/eslint-plugin': 5.3.1
@@ -62,7 +62,7 @@ devDependencies:
   '@codemirror/search': 0.19.2
   '@codemirror/state': 0.19.4
   '@codemirror/stream-parser': 0.19.2
-  '@codemirror/view': 0.19.14
+  '@codemirror/view': 0.19.15
   '@sveltejs/adapter-node': 1.0.0-next.55
   '@sveltejs/kit': 1.0.0-next.195_sass@1.43.4+svelte@3.44.1
   '@typescript-eslint/eslint-plugin': 5.3.1_4653b7803b7453f5f37717b7e1448517
@@ -89,7 +89,7 @@ packages:
       '@codemirror/state': 0.19.4
       '@codemirror/text': 0.19.4
       '@codemirror/tooltip': 0.19.6
-      '@codemirror/view': 0.19.14
+      '@codemirror/view': 0.19.15
       '@lezer/common': 0.15.5
     dev: true
 
@@ -110,7 +110,7 @@ packages:
       '@codemirror/rectangular-selection': 0.19.0
       '@codemirror/search': 0.19.2
       '@codemirror/state': 0.19.4
-      '@codemirror/view': 0.19.14
+      '@codemirror/view': 0.19.15
     dev: true
 
   /@codemirror/closebrackets/0.19.0:
@@ -120,7 +120,7 @@ packages:
       '@codemirror/rangeset': 0.19.1
       '@codemirror/state': 0.19.4
       '@codemirror/text': 0.19.3
-      '@codemirror/view': 0.19.14
+      '@codemirror/view': 0.19.15
     dev: true
 
   /@codemirror/collab/0.19.0:
@@ -136,7 +136,7 @@ packages:
       '@codemirror/matchbrackets': 0.19.1
       '@codemirror/state': 0.19.4
       '@codemirror/text': 0.19.4
-      '@codemirror/view': 0.19.14
+      '@codemirror/view': 0.19.15
       '@lezer/common': 0.15.5
     dev: true
 
@@ -147,7 +147,7 @@ packages:
       '@codemirror/matchbrackets': 0.19.1
       '@codemirror/state': 0.19.4
       '@codemirror/text': 0.19.3
-      '@codemirror/view': 0.19.14
+      '@codemirror/view': 0.19.15
       '@lezer/common': 0.15.5
     dev: true
 
@@ -156,7 +156,7 @@ packages:
     dependencies:
       '@codemirror/state': 0.19.4
       '@codemirror/text': 0.19.3
-      '@codemirror/view': 0.19.14
+      '@codemirror/view': 0.19.15
     dev: true
 
   /@codemirror/fold/0.19.1:
@@ -166,7 +166,7 @@ packages:
       '@codemirror/language': 0.19.3
       '@codemirror/rangeset': 0.19.1
       '@codemirror/state': 0.19.4
-      '@codemirror/view': 0.19.14
+      '@codemirror/view': 0.19.15
     dev: true
 
   /@codemirror/gutter/0.19.4:
@@ -174,7 +174,7 @@ packages:
     dependencies:
       '@codemirror/rangeset': 0.19.1
       '@codemirror/state': 0.19.4
-      '@codemirror/view': 0.19.14
+      '@codemirror/view': 0.19.15
     dev: true
 
   /@codemirror/highlight/0.19.5:
@@ -183,7 +183,7 @@ packages:
       '@codemirror/language': 0.19.3
       '@codemirror/rangeset': 0.19.1
       '@codemirror/state': 0.19.4
-      '@codemirror/view': 0.19.14
+      '@codemirror/view': 0.19.15
       '@lezer/common': 0.15.5
       style-mod: 4.0.0
 
@@ -193,7 +193,7 @@ packages:
       '@codemirror/language': 0.19.3
       '@codemirror/rangeset': 0.19.1
       '@codemirror/state': 0.19.4
-      '@codemirror/view': 0.19.14
+      '@codemirror/view': 0.19.15
       '@lezer/common': 0.15.5
       style-mod: 4.0.0
     dev: true
@@ -202,7 +202,7 @@ packages:
     resolution: {integrity: sha512-E0H+lncH66IMDhaND9jgkjE7s0dhYfjCPmS+Ig2Yes9I8+UIEecIdObj8c8HPCFGctGg3fxXqRAw2mdHl2Wouw==}
     dependencies:
       '@codemirror/state': 0.19.4
-      '@codemirror/view': 0.19.14
+      '@codemirror/view': 0.19.15
     dev: true
 
   /@codemirror/language/0.19.3:
@@ -210,7 +210,7 @@ packages:
     dependencies:
       '@codemirror/state': 0.19.4
       '@codemirror/text': 0.19.3
-      '@codemirror/view': 0.19.14
+      '@codemirror/view': 0.19.15
       '@lezer/common': 0.15.5
       '@lezer/lr': 0.15.2
 
@@ -228,7 +228,7 @@ packages:
       '@codemirror/rangeset': 0.19.1
       '@codemirror/state': 0.19.4
       '@codemirror/tooltip': 0.19.6
-      '@codemirror/view': 0.19.14
+      '@codemirror/view': 0.19.15
       crelt: 1.0.5
     dev: true
 
@@ -237,7 +237,7 @@ packages:
     dependencies:
       '@codemirror/language': 0.19.3
       '@codemirror/state': 0.19.4
-      '@codemirror/view': 0.19.14
+      '@codemirror/view': 0.19.15
       '@lezer/common': 0.15.5
     dev: true
 
@@ -246,7 +246,7 @@ packages:
     dependencies:
       '@codemirror/language': 0.19.3
       '@codemirror/state': 0.19.4
-      '@codemirror/view': 0.19.14
+      '@codemirror/view': 0.19.15
       '@lezer/common': 0.15.5
     dev: true
 
@@ -254,7 +254,7 @@ packages:
     resolution: {integrity: sha512-LJuu49xnuhaAztlhnLJQ57ddOirSyf8/lnl7twsQUG/05RkxodBZ9F7q8r5AOLqOkaQOy9WySEKX1Ur8lD9Q5w==}
     dependencies:
       '@codemirror/state': 0.19.4
-      '@codemirror/view': 0.19.14
+      '@codemirror/view': 0.19.15
     dev: true
 
   /@codemirror/rangeset/0.19.1:
@@ -267,7 +267,7 @@ packages:
     dependencies:
       '@codemirror/state': 0.19.4
       '@codemirror/text': 0.19.4
-      '@codemirror/view': 0.19.14
+      '@codemirror/view': 0.19.15
     dev: true
 
   /@codemirror/rectangular-selection/0.19.1:
@@ -275,7 +275,7 @@ packages:
     dependencies:
       '@codemirror/state': 0.19.4
       '@codemirror/text': 0.19.4
-      '@codemirror/view': 0.19.14
+      '@codemirror/view': 0.19.15
     dev: true
 
   /@codemirror/search/0.19.2:
@@ -285,7 +285,7 @@ packages:
       '@codemirror/rangeset': 0.19.1
       '@codemirror/state': 0.19.4
       '@codemirror/text': 0.19.3
-      '@codemirror/view': 0.19.14
+      '@codemirror/view': 0.19.15
       crelt: 1.0.5
     dev: true
 
@@ -314,11 +314,11 @@ packages:
     resolution: {integrity: sha512-a2xBVsk6JiLXpbMUfAM5pA+K7Om+7U7zlm1rBg0LaOez+3r9tiB2T0aw+IBKWOzAHKV3EwFbM7dwclUZBBYBfg==}
     dependencies:
       '@codemirror/state': 0.19.4
-      '@codemirror/view': 0.19.14
+      '@codemirror/view': 0.19.15
     dev: true
 
-  /@codemirror/view/0.19.14:
-    resolution: {integrity: sha512-NCaR406AaqVfYBUcM/mhqHOiQArlBbXrxS7ORTjZb2WtBOQQ5fiTbd7xro5hjOWCTgYP41CzHPdBGoozJhMn4Q==}
+  /@codemirror/view/0.19.15:
+    resolution: {integrity: sha512-aLWjINi9ReVgq2lwHpf8EzzbTO8KTufcYF7o74SL/Z1yPPayxEEGl/4NyIX6cbAxJaQ+hyN60kJ+XAtz3Ag0Kw==}
     dependencies:
       '@codemirror/rangeset': 0.19.1
       '@codemirror/state': 0.19.4
