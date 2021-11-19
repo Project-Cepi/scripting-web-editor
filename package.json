@@ -23,7 +23,7 @@
 		"@codemirror/matchbrackets": "0.19.3",
 		"@codemirror/rectangular-selection": "0.19.1",
 		"@codemirror/search": "0.19.2",
-		"@codemirror/state": "0.19.5",
+		"@codemirror/state": "0.19.6",
 		"@codemirror/stream-parser": "0.19.2",
 		"@codemirror/view": "0.19.19",
 		"@sveltejs/adapter-node": "next",
