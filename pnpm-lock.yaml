@@ -16,7 +16,7 @@ specifiers:
   '@codemirror/lint': 0.19.3
   '@codemirror/matchbrackets': 0.19.3
   '@codemirror/rectangular-selection': 0.19.1
-  '@codemirror/search': 0.19.2
+  '@codemirror/search': 0.19.3
   '@codemirror/state': 0.19.6
   '@codemirror/stream-parser': 0.19.2
   '@codemirror/view': 0.19.20
@@ -59,7 +59,7 @@ devDependencies:
   '@codemirror/lint': 0.19.3
   '@codemirror/matchbrackets': 0.19.3
   '@codemirror/rectangular-selection': 0.19.1
-  '@codemirror/search': 0.19.2
+  '@codemirror/search': 0.19.3
   '@codemirror/state': 0.19.6
   '@codemirror/stream-parser': 0.19.2
   '@codemirror/view': 0.19.20
@@ -108,7 +108,7 @@ packages:
       '@codemirror/lint': 0.19.3
       '@codemirror/matchbrackets': 0.19.1
       '@codemirror/rectangular-selection': 0.19.0
-      '@codemirror/search': 0.19.2
+      '@codemirror/search': 0.19.3
       '@codemirror/state': 0.19.6
       '@codemirror/view': 0.19.20
     dev: true
@@ -278,13 +278,13 @@ packages:
       '@codemirror/view': 0.19.20
     dev: true
 
-  /@codemirror/search/0.19.2:
-    resolution: {integrity: sha512-TrRxUxyJ/a7HXtUvMZhgkOUbKE1xO33UhXjn1XACEHKWhgovw1vEeEEti9dZejN8/QOOFJed39InUxmp7oQ8HA==}
+  /@codemirror/search/0.19.3:
+    resolution: {integrity: sha512-T8AcSGNYuYtmOUXzI0VtCa9SMA0C90/Zk7fxnabgy0dpViwokucCMY2+aBZMPncIatkgojzbiRn7d5Qo1Ugx9w==}
     dependencies:
       '@codemirror/panel': 0.19.0
       '@codemirror/rangeset': 0.19.1
       '@codemirror/state': 0.19.6
-      '@codemirror/text': 0.19.3
+      '@codemirror/text': 0.19.4
       '@codemirror/view': 0.19.20
       crelt: 1.0.5
     dev: true
