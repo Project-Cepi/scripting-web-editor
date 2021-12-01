@@ -8,7 +8,7 @@ specifiers:
   '@codemirror/commands': 0.19.5
   '@codemirror/comment': 0.19.0
   '@codemirror/fold': 0.19.2
-  '@codemirror/gutter': 0.19.7
+  '@codemirror/gutter': 0.19.8
   '@codemirror/highlight': 0.19.6
   '@codemirror/history': 0.19.0
   '@codemirror/language': 0.19.6
@@ -52,7 +52,7 @@ devDependencies:
   '@codemirror/commands': 0.19.5
   '@codemirror/comment': 0.19.0
   '@codemirror/fold': 0.19.2
-  '@codemirror/gutter': 0.19.7
+  '@codemirror/gutter': 0.19.8
   '@codemirror/highlight': 0.19.6
   '@codemirror/history': 0.19.0
   '@codemirror/language': 0.19.6
@@ -101,7 +101,7 @@ packages:
       '@codemirror/commands': 0.19.4
       '@codemirror/comment': 0.19.0
       '@codemirror/fold': 0.19.2
-      '@codemirror/gutter': 0.19.7
+      '@codemirror/gutter': 0.19.8
       '@codemirror/highlight': 0.19.5
       '@codemirror/history': 0.19.0
       '@codemirror/language': 0.19.6
@@ -162,15 +162,15 @@ packages:
   /@codemirror/fold/0.19.2:
     resolution: {integrity: sha512-FLi6RBhHPBnSbKZEu1S98z+VYSP5678cMdYVqhR58OWWTkEiLRVPeCTj8FhRKNL9B8Gx+lBQhGq3uwr3KtSs8w==}
     dependencies:
-      '@codemirror/gutter': 0.19.7
+      '@codemirror/gutter': 0.19.8
       '@codemirror/language': 0.19.6
       '@codemirror/rangeset': 0.19.1
       '@codemirror/state': 0.19.6
       '@codemirror/view': 0.19.24
     dev: true
 
-  /@codemirror/gutter/0.19.7:
-    resolution: {integrity: sha512-nrW8nqvml5zYzjwx1ydiHXVN0b43JwgiL8i8R31hgb/zKd0tsX90RX6gGTv8dlrY+hUTaPGKo9JKTFQJor3mzA==}
+  /@codemirror/gutter/0.19.8:
+    resolution: {integrity: sha512-BVC1n7kluvAORcnkks//x3XYtXgbRH5k9o2xHWOdn9jKtQFEdAbIRmabEkUgG4Foqc5zX/AdxI/3btoEUR67dQ==}
     dependencies:
       '@codemirror/rangeset': 0.19.1
       '@codemirror/state': 0.19.6
@@ -223,7 +223,7 @@ packages:
   /@codemirror/lint/0.19.3:
     resolution: {integrity: sha512-+c39s05ybD2NjghxkPFsUbH/qBL0cdzKmtHbzUm0RVspeL2OiP7uHYJ6J5+Qr9RjMIPWzcqSauRqxfmCrctUfg==}
     dependencies:
-      '@codemirror/gutter': 0.19.7
+      '@codemirror/gutter': 0.19.8
       '@codemirror/panel': 0.19.0
       '@codemirror/rangeset': 0.19.1
       '@codemirror/state': 0.19.6
