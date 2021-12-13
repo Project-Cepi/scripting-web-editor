@@ -33,7 +33,7 @@ specifiers:
   prettier-plugin-svelte: 2.5.1
   sass: 1.45.0
   svelte: 3.44.2
-  svelte-preprocess: 4.9.8
+  svelte-preprocess: 4.10.0
   tslib: 2.3.1
   typescript: 4.5.3
   uuid-random: 1.3.2
@@ -75,7 +75,7 @@ devDependencies:
   prettier-plugin-svelte: 2.5.1_prettier@2.5.1+svelte@3.44.2
   sass: 1.45.0
   svelte: 3.44.2
-  svelte-preprocess: 4.9.8_81857c0eb075b8e1f3993de95f2ecdff
+  svelte-preprocess: 4.10.0_81857c0eb075b8e1f3993de95f2ecdff
   tslib: 2.3.1
   typescript: 4.5.3
   vite: 2.7.1_sass@1.45.0
@@ -1662,8 +1662,8 @@ packages:
       svelte: 3.44.2
     dev: true
 
-  /svelte-preprocess/4.9.8_81857c0eb075b8e1f3993de95f2ecdff:
-    resolution: {integrity: sha512-EQS/oRZzMtYdAprppZxY3HcysKh11w54MgA63ybtL+TAZ4hVqYOnhw41JVJjWN9dhPnNjjLzvbZ2tMhTsla1Og==}
+  /svelte-preprocess/4.10.0_81857c0eb075b8e1f3993de95f2ecdff:
+    resolution: {integrity: sha512-uZgGyC4SwkFoby2ceiMgGYs4qHYGz2fT06cAsHO8FHdDbvj1dKQyQ/fD9OB0KLymVv0fmzuJo/On7Kv7AeVhWA==}
     engines: {node: '>= 9.11.2'}
     requiresBuild: true
     peerDependencies:
@@ -1678,7 +1678,7 @@ packages:
       stylus: ^0.54.7
       sugarss: ^2.0.0
       svelte: ^3.23.0
-      typescript: ^3.9.5 || ^4.0.0
+      typescript: ^4.5.2
     peerDependenciesMeta:
       '@babel/core':
         optional: true
