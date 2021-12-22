@@ -25,7 +25,7 @@
 		"@codemirror/search": "0.19.5",
 		"@codemirror/state": "0.19.6",
 		"@codemirror/stream-parser": "0.19.3",
-		"@codemirror/view": "0.19.35",
+		"@codemirror/view": "0.19.36",
 		"@sveltejs/adapter-node": "next",
 		"@sveltejs/kit": "next",
 		"@typescript-eslint/eslint-plugin": "5.8.0",
