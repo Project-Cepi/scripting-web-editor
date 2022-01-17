@@ -33,7 +33,7 @@ specifiers:
   prettier-plugin-svelte: 2.6.0
   sass: 1.48.0
   svelte: 3.46.2
-  svelte-preprocess: 4.10.1
+  svelte-preprocess: 4.10.2
   tslib: 2.3.1
   typescript: 4.5.4
   uuid-random: 1.3.2
@@ -63,7 +63,7 @@ devDependencies:
   '@codemirror/state': 0.19.6
   '@codemirror/stream-parser': 0.19.4
   '@codemirror/view': 0.19.39
-  '@sveltejs/adapter-node': 1.0.0-next.61
+  '@sveltejs/adapter-node': 1.0.0-next.62
   '@sveltejs/kit': 1.0.0-next.232_sass@1.48.0+svelte@3.46.2
   '@typescript-eslint/eslint-plugin': 5.9.1_bbe74534e31a8c21f1b3522447c55341
   '@typescript-eslint/parser': 5.9.1_eslint@8.7.0+typescript@4.5.4
@@ -75,7 +75,7 @@ devDependencies:
   prettier-plugin-svelte: 2.6.0_prettier@2.5.1+svelte@3.46.2
   sass: 1.48.0
   svelte: 3.46.2
-  svelte-preprocess: 4.10.1_29e62301fc182049204f5f6a0272225d
+  svelte-preprocess: 4.10.2_29e62301fc182049204f5f6a0272225d
   tslib: 2.3.1
   typescript: 4.5.4
   vite: 2.7.12_sass@1.48.0
@@ -376,8 +376,8 @@ packages:
       picomatch: 2.2.3
     dev: true
 
-  /@sveltejs/adapter-node/1.0.0-next.61:
-    resolution: {integrity: sha512-QiH/VBlRuQfw3x9yCrhXPqHvynqA1ai2izDlvc+ZxdWjah5vjds0P6EoP0g4VOJUFKtttQVnGNQrXMUA87T2dw==}
+  /@sveltejs/adapter-node/1.0.0-next.62:
+    resolution: {integrity: sha512-mq/IOgQos0ps3efi4JTuEXdhQaoUwdWZ4RTgP2DeVL5VsWqm0T+GZJod/RDSwzwDdq4QqUHjfnpk+mKuO5QnWQ==}
     dependencies:
       tiny-glob: 0.2.9
     dev: true
@@ -1656,20 +1656,20 @@ packages:
       svelte: 3.46.2
     dev: true
 
-  /svelte-preprocess/4.10.1_29e62301fc182049204f5f6a0272225d:
-    resolution: {integrity: sha512-NSNloaylf+o9UeyUR2KvpdxrAyMdHl3U7rMnoP06/sG0iwJvlUM4TpMno13RaNqovh4AAoGsx1jeYcIyuGUXMw==}
+  /svelte-preprocess/4.10.2_29e62301fc182049204f5f6a0272225d:
+    resolution: {integrity: sha512-aPpkCreSo8EL/y8kJSa1trhiX0oyAtTjlNNM7BNjRAsMJ8Yy2LtqHt0zyd4pQPXt+D4PzbO3qTjjio3kwOxDlA==}
     engines: {node: '>= 9.11.2'}
     requiresBuild: true
     peerDependencies:
       '@babel/core': ^7.10.2
       coffeescript: ^2.5.1
-      less: ^3.11.3
+      less: ^3.11.3 || ^4.0.0
       node-sass: '*'
       postcss: ^7 || ^8
       postcss-load-config: ^2.1.0 || ^3.0.0
       pug: ^3.0.0
       sass: ^1.26.8
-      stylus: ^0.54.7
+      stylus: ^0.55.0
       sugarss: ^2.0.0
       svelte: ^3.23.0
       typescript: ^4.5.2
