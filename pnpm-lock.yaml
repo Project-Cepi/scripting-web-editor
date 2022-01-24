@@ -7,7 +7,7 @@ specifiers:
   '@codemirror/collab': 0.19.0
   '@codemirror/commands': 0.19.7
   '@codemirror/comment': 0.19.0
-  '@codemirror/fold': 0.19.2
+  '@codemirror/fold': 0.19.3
   '@codemirror/gutter': 0.19.9
   '@codemirror/highlight': 0.19.7
   '@codemirror/history': 0.19.2
@@ -51,7 +51,7 @@ devDependencies:
   '@codemirror/closebrackets': 0.19.0
   '@codemirror/commands': 0.19.7
   '@codemirror/comment': 0.19.0
-  '@codemirror/fold': 0.19.2
+  '@codemirror/fold': 0.19.3
   '@codemirror/gutter': 0.19.9
   '@codemirror/highlight': 0.19.7
   '@codemirror/history': 0.19.2
@@ -63,8 +63,8 @@ devDependencies:
   '@codemirror/state': 0.19.6
   '@codemirror/stream-parser': 0.19.4
   '@codemirror/view': 0.19.40
-  '@sveltejs/adapter-node': 1.0.0-next.66
-  '@sveltejs/kit': 1.0.0-next.236_sass@1.49.0+svelte@3.46.2
+  '@sveltejs/adapter-node': 1.0.0-next.67
+  '@sveltejs/kit': 1.0.0-next.241_sass@1.49.0+svelte@3.46.2
   '@typescript-eslint/eslint-plugin': 5.10.0_706fb07ce74b1db611f19a02ad2ce784
   '@typescript-eslint/parser': 5.10.0_eslint@8.7.0+typescript@4.5.5
   eslint: 8.7.0
@@ -100,7 +100,7 @@ packages:
       '@codemirror/closebrackets': 0.19.0
       '@codemirror/commands': 0.19.7
       '@codemirror/comment': 0.19.0
-      '@codemirror/fold': 0.19.2
+      '@codemirror/fold': 0.19.3
       '@codemirror/gutter': 0.19.9
       '@codemirror/highlight': 0.19.7
       '@codemirror/history': 0.19.2
@@ -148,12 +148,12 @@ packages:
       '@codemirror/view': 0.19.40
     dev: true
 
-  /@codemirror/fold/0.19.2:
-    resolution: {integrity: sha512-FLi6RBhHPBnSbKZEu1S98z+VYSP5678cMdYVqhR58OWWTkEiLRVPeCTj8FhRKNL9B8Gx+lBQhGq3uwr3KtSs8w==}
+  /@codemirror/fold/0.19.3:
+    resolution: {integrity: sha512-8hT+Eq2G68mL0yPRvSD2ewhnLQAX6sbUJmtGVKFcj8oAXtfpYCX8LIcfXsuI19Qs7gZkOSpqZvn+KKj8IhZoAw==}
     dependencies:
       '@codemirror/gutter': 0.19.9
       '@codemirror/language': 0.19.7
-      '@codemirror/rangeset': 0.19.1
+      '@codemirror/rangeset': 0.19.5
       '@codemirror/state': 0.19.6
       '@codemirror/view': 0.19.40
     dev: true
@@ -376,14 +376,14 @@ packages:
       picomatch: 2.2.3
     dev: true
 
-  /@sveltejs/adapter-node/1.0.0-next.66:
-    resolution: {integrity: sha512-CtBRv7TAo0tuPm+noYXMYHz7jeUSZlT3+eAmsBMeM+B0oB5yEyZGycAyLbMykrp1PlWgN3jg1oK6gpwHIbxrJA==}
+  /@sveltejs/adapter-node/1.0.0-next.67:
+    resolution: {integrity: sha512-+LuLn91xARZsRANiQNIIDpMMncUTnP2pJc8tyL+FdpVvs5UtlvkYJpeCBPFqjjseRpIIbi8Slu89GCdrRXBDUg==}
     dependencies:
       tiny-glob: 0.2.9
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.236_sass@1.49.0+svelte@3.46.2:
-    resolution: {integrity: sha512-V/K6KZwZlfM2jDiL7luisRkPujf/pAT2SUpgOEONk44WwUwYwd928qN2u0Z6SAfQFCDAxUI8pMHP2OC1bm352Q==}
+  /@sveltejs/kit/1.0.0-next.241_sass@1.49.0+svelte@3.46.2:
+    resolution: {integrity: sha512-KuRXJEoSPloGxv3HYniZT2u04zwkYFk1lE1pLOyX96D5Po8CxIhBJlSo3YjTBNJ+AbN5a3T2zxLSw6azecdd7Q==}
     engines: {node: '>=14.13'}
     hasBin: true
     peerDependencies:
