@@ -24,7 +24,7 @@
 		"@codemirror/rectangular-selection": "0.19.1",
 		"@codemirror/search": "0.19.6",
 		"@codemirror/state": "0.19.6",
-		"@codemirror/stream-parser": "0.19.4",
+		"@codemirror/stream-parser": "0.19.5",
 		"@codemirror/view": "0.19.40",
 		"@sveltejs/adapter-node": "next",
 		"@sveltejs/kit": "next",
