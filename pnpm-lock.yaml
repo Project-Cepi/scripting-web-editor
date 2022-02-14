@@ -16,7 +16,7 @@ specifiers:
   '@codemirror/lint': 0.19.3
   '@codemirror/matchbrackets': 0.19.4
   '@codemirror/rectangular-selection': 0.19.1
-  '@codemirror/search': 0.19.6
+  '@codemirror/search': 0.19.7
   '@codemirror/state': 0.19.7
   '@codemirror/stream-parser': 0.19.5
   '@codemirror/view': 0.19.42
@@ -59,12 +59,12 @@ devDependencies:
   '@codemirror/lint': 0.19.3
   '@codemirror/matchbrackets': 0.19.4
   '@codemirror/rectangular-selection': 0.19.1
-  '@codemirror/search': 0.19.6
+  '@codemirror/search': 0.19.7
   '@codemirror/state': 0.19.7
   '@codemirror/stream-parser': 0.19.5
   '@codemirror/view': 0.19.42
   '@sveltejs/adapter-node': 1.0.0-next.68
-  '@sveltejs/kit': 1.0.0-next.266_sass@1.49.7+svelte@3.46.4
+  '@sveltejs/kit': 1.0.0-next.267_sass@1.49.7+svelte@3.46.4
   '@typescript-eslint/eslint-plugin': 5.11.0_15a231715447500ed5c06da64c8aef1c
   '@typescript-eslint/parser': 5.11.0_eslint@8.9.0+typescript@4.5.5
   eslint: 8.9.0
@@ -108,7 +108,7 @@ packages:
       '@codemirror/lint': 0.19.3
       '@codemirror/matchbrackets': 0.19.4
       '@codemirror/rectangular-selection': 0.19.1
-      '@codemirror/search': 0.19.6
+      '@codemirror/search': 0.19.7
       '@codemirror/state': 0.19.7
       '@codemirror/view': 0.19.42
     dev: true
@@ -245,8 +245,8 @@ packages:
       '@codemirror/view': 0.19.42
     dev: true
 
-  /@codemirror/search/0.19.6:
-    resolution: {integrity: sha512-Wx3AyZ5/hFv6+YklNMeW2sHbVmnhSNC027Rc/pk7Cy51g09ZBHqMMAwJlpNcWmGYjf+SYzomIUpd+DgkVCmvLw==}
+  /@codemirror/search/0.19.7:
+    resolution: {integrity: sha512-/dhHi/HUHtHfmw7ULcTtsLAUTRauPZctGkqZ+yCA58QvzP2RVWsvq0BqBrlvFgZq2SwSbWwF3NO2MuxIGsQ4Sw==}
     dependencies:
       '@codemirror/panel': 0.19.0
       '@codemirror/rangeset': 0.19.5
@@ -379,8 +379,8 @@ packages:
       tiny-glob: 0.2.9
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.266_sass@1.49.7+svelte@3.46.4:
-    resolution: {integrity: sha512-nlc+ECltLIadY12K+DerDLtgKRBe/ri+R5e2iWFIovetk31heU92nd1k24DL+FMcNo7B0Ik4XxurHCV2eoft3g==}
+  /@sveltejs/kit/1.0.0-next.267_sass@1.49.7+svelte@3.46.4:
+    resolution: {integrity: sha512-zwtSuhgQV4qCXggmSU6hduFLuEE/7HMBNgRDHNjFPlXTn6VZT6whKPIfLGVRpHVveOyYzCxH6Dcy7nl0wfZ9kw==}
     engines: {node: '>=14.13'}
     hasBin: true
     peerDependencies:
