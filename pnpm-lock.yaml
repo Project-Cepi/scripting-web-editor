@@ -19,7 +19,7 @@ specifiers:
   '@codemirror/search': 0.19.8
   '@codemirror/state': 0.19.9
   '@codemirror/stream-parser': 0.19.6
-  '@codemirror/view': 0.19.43
+  '@codemirror/view': 0.19.44
   '@sveltejs/adapter-node': next
   '@sveltejs/kit': next
   '@typescript-eslint/eslint-plugin': 5.12.0
@@ -62,9 +62,9 @@ devDependencies:
   '@codemirror/search': 0.19.8
   '@codemirror/state': 0.19.9
   '@codemirror/stream-parser': 0.19.6
-  '@codemirror/view': 0.19.43
+  '@codemirror/view': 0.19.44
   '@sveltejs/adapter-node': 1.0.0-next.68
-  '@sveltejs/kit': 1.0.0-next.272_sass@1.49.7+svelte@3.46.4
+  '@sveltejs/kit': 1.0.0-next.276_sass@1.49.7+svelte@3.46.4
   '@typescript-eslint/eslint-plugin': 5.12.0_c467cf9bb49b295941e83ce479a578b7
   '@typescript-eslint/parser': 5.12.0_eslint@8.9.0+typescript@4.5.5
   eslint: 8.9.0
@@ -89,7 +89,7 @@ packages:
       '@codemirror/state': 0.19.9
       '@codemirror/text': 0.19.4
       '@codemirror/tooltip': 0.19.12
-      '@codemirror/view': 0.19.43
+      '@codemirror/view': 0.19.44
       '@lezer/common': 0.15.5
     dev: true
 
@@ -110,7 +110,7 @@ packages:
       '@codemirror/rectangular-selection': 0.19.1
       '@codemirror/search': 0.19.8
       '@codemirror/state': 0.19.9
-      '@codemirror/view': 0.19.43
+      '@codemirror/view': 0.19.44
     dev: true
 
   /@codemirror/closebrackets/0.19.0:
@@ -120,7 +120,7 @@ packages:
       '@codemirror/rangeset': 0.19.1
       '@codemirror/state': 0.19.9
       '@codemirror/text': 0.19.3
-      '@codemirror/view': 0.19.43
+      '@codemirror/view': 0.19.44
     dev: true
 
   /@codemirror/collab/0.19.0:
@@ -136,7 +136,7 @@ packages:
       '@codemirror/matchbrackets': 0.19.4
       '@codemirror/state': 0.19.9
       '@codemirror/text': 0.19.6
-      '@codemirror/view': 0.19.43
+      '@codemirror/view': 0.19.44
       '@lezer/common': 0.15.5
     dev: true
 
@@ -145,7 +145,7 @@ packages:
     dependencies:
       '@codemirror/state': 0.19.9
       '@codemirror/text': 0.19.6
-      '@codemirror/view': 0.19.43
+      '@codemirror/view': 0.19.44
     dev: true
 
   /@codemirror/fold/0.19.3:
@@ -155,7 +155,7 @@ packages:
       '@codemirror/language': 0.19.7
       '@codemirror/rangeset': 0.19.5
       '@codemirror/state': 0.19.9
-      '@codemirror/view': 0.19.43
+      '@codemirror/view': 0.19.44
     dev: true
 
   /@codemirror/gutter/0.19.9:
@@ -163,7 +163,7 @@ packages:
     dependencies:
       '@codemirror/rangeset': 0.19.1
       '@codemirror/state': 0.19.9
-      '@codemirror/view': 0.19.43
+      '@codemirror/view': 0.19.44
     dev: true
 
   /@codemirror/highlight/0.19.7:
@@ -172,7 +172,7 @@ packages:
       '@codemirror/language': 0.19.7
       '@codemirror/rangeset': 0.19.5
       '@codemirror/state': 0.19.9
-      '@codemirror/view': 0.19.43
+      '@codemirror/view': 0.19.44
       '@lezer/common': 0.15.5
       style-mod: 4.0.0
 
@@ -180,7 +180,7 @@ packages:
     resolution: {integrity: sha512-unhP4t3N2smzmHoo/Yio6ueWi+il8gm9VKrvi6wlcdGH5fOfVDNkmjHQ495SiR+EdOG35+3iNebSPYww0vN7ow==}
     dependencies:
       '@codemirror/state': 0.19.9
-      '@codemirror/view': 0.19.43
+      '@codemirror/view': 0.19.44
     dev: true
 
   /@codemirror/language/0.19.7:
@@ -188,7 +188,7 @@ packages:
     dependencies:
       '@codemirror/state': 0.19.9
       '@codemirror/text': 0.19.4
-      '@codemirror/view': 0.19.43
+      '@codemirror/view': 0.19.44
       '@lezer/common': 0.15.5
       '@lezer/lr': 0.15.2
 
@@ -206,7 +206,7 @@ packages:
       '@codemirror/rangeset': 0.19.1
       '@codemirror/state': 0.19.9
       '@codemirror/tooltip': 0.19.6
-      '@codemirror/view': 0.19.43
+      '@codemirror/view': 0.19.44
       crelt: 1.0.5
     dev: true
 
@@ -215,7 +215,7 @@ packages:
     dependencies:
       '@codemirror/language': 0.19.7
       '@codemirror/state': 0.19.9
-      '@codemirror/view': 0.19.43
+      '@codemirror/view': 0.19.44
       '@lezer/common': 0.15.5
     dev: true
 
@@ -223,7 +223,7 @@ packages:
     resolution: {integrity: sha512-LJuu49xnuhaAztlhnLJQ57ddOirSyf8/lnl7twsQUG/05RkxodBZ9F7q8r5AOLqOkaQOy9WySEKX1Ur8lD9Q5w==}
     dependencies:
       '@codemirror/state': 0.19.9
-      '@codemirror/view': 0.19.43
+      '@codemirror/view': 0.19.44
     dev: true
 
   /@codemirror/rangeset/0.19.1:
@@ -242,7 +242,7 @@ packages:
     dependencies:
       '@codemirror/state': 0.19.9
       '@codemirror/text': 0.19.4
-      '@codemirror/view': 0.19.43
+      '@codemirror/view': 0.19.44
     dev: true
 
   /@codemirror/search/0.19.8:
@@ -252,7 +252,7 @@ packages:
       '@codemirror/rangeset': 0.19.5
       '@codemirror/state': 0.19.9
       '@codemirror/text': 0.19.6
-      '@codemirror/view': 0.19.43
+      '@codemirror/view': 0.19.44
       crelt: 1.0.5
     dev: true
 
@@ -285,18 +285,18 @@ packages:
     resolution: {integrity: sha512-EjF00T/wo+3cKGX1OOiBJF4wgDqtErzKuEqcBQsB2M2kX2O8slzQ0Z0+l5nV2JCe8RpEsz+rWGikjghasokRmw==}
     dependencies:
       '@codemirror/state': 0.19.9
-      '@codemirror/view': 0.19.43
+      '@codemirror/view': 0.19.44
     dev: true
 
   /@codemirror/tooltip/0.19.6:
     resolution: {integrity: sha512-a2xBVsk6JiLXpbMUfAM5pA+K7Om+7U7zlm1rBg0LaOez+3r9tiB2T0aw+IBKWOzAHKV3EwFbM7dwclUZBBYBfg==}
     dependencies:
       '@codemirror/state': 0.19.9
-      '@codemirror/view': 0.19.43
+      '@codemirror/view': 0.19.44
     dev: true
 
-  /@codemirror/view/0.19.43:
-    resolution: {integrity: sha512-caT53/FD4gDLgb1fcYWJ935oMfRmy4DwKcDuMFg56T5M5hzf20H6nl4+NxPB5eiV7AZ1ux3zy40LQVB4U6lFxg==}
+  /@codemirror/view/0.19.44:
+    resolution: {integrity: sha512-vahNUE6hSXdjzs1gcztKPJQhZu+ZIwRpK4ZGZTSD81/CZUVqtlF75W3RCYVgEdjTI1l6ogJmIL6FM2Xj7ltn7Q==}
     dependencies:
       '@codemirror/rangeset': 0.19.5
       '@codemirror/state': 0.19.9
@@ -379,8 +379,8 @@ packages:
       tiny-glob: 0.2.9
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.272_sass@1.49.7+svelte@3.46.4:
-    resolution: {integrity: sha512-QKbUxInDup2x8/0S8noOzDfUypYnOl2G9BfSl6QOHdCMa9LoAu3tHW8PvkdjQxzz075rhZJvHDf2lcXENeO6Sg==}
+  /@sveltejs/kit/1.0.0-next.276_sass@1.49.7+svelte@3.46.4:
+    resolution: {integrity: sha512-LuTnN1Nod+Eub7izlyWYRmoSrJD236fBOxNmOMsiaPDQhcHSbnOpaE9WJPWzQeDPm+E3b4u+mNUOfclXabQSlg==}
     engines: {node: '>=14.13'}
     hasBin: true
     peerDependencies:
