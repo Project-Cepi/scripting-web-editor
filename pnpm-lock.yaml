@@ -26,7 +26,7 @@ specifiers:
   '@typescript-eslint/parser': 5.12.1
   eslint: 8.9.0
   eslint-config-prettier: 8.4.0
-  eslint-plugin-svelte3: 3.4.0
+  eslint-plugin-svelte3: 3.4.1
   lezer: 0.13.5
   luaparse: 0.3.1
   prettier: 2.5.1
@@ -64,12 +64,12 @@ devDependencies:
   '@codemirror/stream-parser': 0.19.6
   '@codemirror/view': 0.19.44
   '@sveltejs/adapter-node': 1.0.0-next.69
-  '@sveltejs/kit': 1.0.0-next.283_sass@1.49.8+svelte@3.46.4
+  '@sveltejs/kit': 1.0.0-next.284_sass@1.49.8+svelte@3.46.4
   '@typescript-eslint/eslint-plugin': 5.12.1_aa3af6382115a42a71cc388b7b2c30b3
   '@typescript-eslint/parser': 5.12.1_eslint@8.9.0+typescript@4.5.5
   eslint: 8.9.0
   eslint-config-prettier: 8.4.0_eslint@8.9.0
-  eslint-plugin-svelte3: 3.4.0_eslint@8.9.0+svelte@3.46.4
+  eslint-plugin-svelte3: 3.4.1_eslint@8.9.0+svelte@3.46.4
   lezer: 0.13.5
   prettier: 2.5.1
   prettier-plugin-svelte: 2.6.0_prettier@2.5.1+svelte@3.46.4
@@ -375,8 +375,8 @@ packages:
       tiny-glob: 0.2.9
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.283_sass@1.49.8+svelte@3.46.4:
-    resolution: {integrity: sha512-QFhL7cdBKXUKhJ3sHZnL7q07Eohc54N7OpX2ZsJuNTA43Z6vX/HF/Jh4TK62kqT+thDVlT5J1iEEMppxA2IxoQ==}
+  /@sveltejs/kit/1.0.0-next.284_sass@1.49.8+svelte@3.46.4:
+    resolution: {integrity: sha512-bcvvRLgbCF5S36REqpODpCEjmvF0sOq9UDA5oHar+N2mr94L8LylN7XbBphE/NZ0GsZfDN6pZ7tVmaaAWLO+fA==}
     engines: {node: '>=14.13'}
     hasBin: true
     peerDependencies:
@@ -947,8 +947,8 @@ packages:
       eslint: 8.9.0
     dev: true
 
-  /eslint-plugin-svelte3/3.4.0_eslint@8.9.0+svelte@3.46.4:
-    resolution: {integrity: sha512-MIQUTuRv3o7LyQ+360qOc9mLT35j1I5YzHr04g/UDcvJTpg0X/kHWELY99ve869Rp/9wjqD7I26Aq5H8OH5RIg==}
+  /eslint-plugin-svelte3/3.4.1_eslint@8.9.0+svelte@3.46.4:
+    resolution: {integrity: sha512-7p59WG8qV8L6wLdl4d/c3mdjkgVglQCdv5XOTk/iNPBKXuuV+Q0eFP5Wa6iJd/G2M1qR3BkLPEzaANOqKAZczw==}
     engines: {node: '>=10'}
     peerDependencies:
       eslint: '>=6.0.0'
