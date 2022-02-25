@@ -13,7 +13,7 @@ specifiers:
   '@codemirror/history': 0.19.2
   '@codemirror/language': 0.19.7
   '@codemirror/legacy-modes': 0.19.0
-  '@codemirror/lint': 0.19.4
+  '@codemirror/lint': 0.19.5
   '@codemirror/matchbrackets': 0.19.4
   '@codemirror/rectangular-selection': 0.19.1
   '@codemirror/search': 0.19.8
@@ -56,7 +56,7 @@ devDependencies:
   '@codemirror/highlight': 0.19.7
   '@codemirror/history': 0.19.2
   '@codemirror/language': 0.19.7
-  '@codemirror/lint': 0.19.4
+  '@codemirror/lint': 0.19.5
   '@codemirror/matchbrackets': 0.19.4
   '@codemirror/rectangular-selection': 0.19.1
   '@codemirror/search': 0.19.8
@@ -105,7 +105,7 @@ packages:
       '@codemirror/highlight': 0.19.7
       '@codemirror/history': 0.19.2
       '@codemirror/language': 0.19.7
-      '@codemirror/lint': 0.19.4
+      '@codemirror/lint': 0.19.5
       '@codemirror/matchbrackets': 0.19.4
       '@codemirror/rectangular-selection': 0.19.1
       '@codemirror/search': 0.19.8
@@ -198,14 +198,14 @@ packages:
       '@codemirror/stream-parser': 0.19.6
     dev: false
 
-  /@codemirror/lint/0.19.4:
-    resolution: {integrity: sha512-29/Wid7X58PMpuD1OrdsIUZYOftCBfIzJwZJUa917CTYbP8WdrZulVtWW2U0J68/6Xzq48d58OxIGa/y7vxjqQ==}
+  /@codemirror/lint/0.19.5:
+    resolution: {integrity: sha512-J6AnEj2WyQfejWmlm4TS5ItVDAe2R+1cO79138HEUJnAN0CX6pVG6zI9cUhoy6V6dsV0hTwFmu6TzGe6vNhkXA==}
     dependencies:
       '@codemirror/gutter': 0.19.9
       '@codemirror/panel': 0.19.0
       '@codemirror/rangeset': 0.19.5
       '@codemirror/state': 0.19.9
-      '@codemirror/tooltip': 0.19.12
+      '@codemirror/tooltip': 0.19.16
       '@codemirror/view': 0.19.45
       crelt: 1.0.5
     dev: true
@@ -279,6 +279,13 @@ packages:
 
   /@codemirror/tooltip/0.19.12:
     resolution: {integrity: sha512-EjF00T/wo+3cKGX1OOiBJF4wgDqtErzKuEqcBQsB2M2kX2O8slzQ0Z0+l5nV2JCe8RpEsz+rWGikjghasokRmw==}
+    dependencies:
+      '@codemirror/state': 0.19.9
+      '@codemirror/view': 0.19.45
+    dev: true
+
+  /@codemirror/tooltip/0.19.16:
+    resolution: {integrity: sha512-zxKDHryUV5/RS45AQL+wOeN+i7/l81wK56OMnUPoTSzCWNITfxHn7BToDsjtrRKbzHqUxKYmBnn/4hPjpZ4WJQ==}
     dependencies:
       '@codemirror/state': 0.19.9
       '@codemirror/view': 0.19.45
