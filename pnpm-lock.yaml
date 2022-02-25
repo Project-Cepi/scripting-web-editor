@@ -13,7 +13,7 @@ specifiers:
   '@codemirror/history': 0.19.2
   '@codemirror/language': 0.19.7
   '@codemirror/legacy-modes': 0.19.0
-  '@codemirror/lint': 0.19.3
+  '@codemirror/lint': 0.19.4
   '@codemirror/matchbrackets': 0.19.4
   '@codemirror/rectangular-selection': 0.19.1
   '@codemirror/search': 0.19.8
@@ -56,7 +56,7 @@ devDependencies:
   '@codemirror/highlight': 0.19.7
   '@codemirror/history': 0.19.2
   '@codemirror/language': 0.19.7
-  '@codemirror/lint': 0.19.3
+  '@codemirror/lint': 0.19.4
   '@codemirror/matchbrackets': 0.19.4
   '@codemirror/rectangular-selection': 0.19.1
   '@codemirror/search': 0.19.8
@@ -105,7 +105,7 @@ packages:
       '@codemirror/highlight': 0.19.7
       '@codemirror/history': 0.19.2
       '@codemirror/language': 0.19.7
-      '@codemirror/lint': 0.19.3
+      '@codemirror/lint': 0.19.4
       '@codemirror/matchbrackets': 0.19.4
       '@codemirror/rectangular-selection': 0.19.1
       '@codemirror/search': 0.19.8
@@ -198,14 +198,14 @@ packages:
       '@codemirror/stream-parser': 0.19.6
     dev: false
 
-  /@codemirror/lint/0.19.3:
-    resolution: {integrity: sha512-+c39s05ybD2NjghxkPFsUbH/qBL0cdzKmtHbzUm0RVspeL2OiP7uHYJ6J5+Qr9RjMIPWzcqSauRqxfmCrctUfg==}
+  /@codemirror/lint/0.19.4:
+    resolution: {integrity: sha512-29/Wid7X58PMpuD1OrdsIUZYOftCBfIzJwZJUa917CTYbP8WdrZulVtWW2U0J68/6Xzq48d58OxIGa/y7vxjqQ==}
     dependencies:
       '@codemirror/gutter': 0.19.9
       '@codemirror/panel': 0.19.0
-      '@codemirror/rangeset': 0.19.1
+      '@codemirror/rangeset': 0.19.5
       '@codemirror/state': 0.19.9
-      '@codemirror/tooltip': 0.19.6
+      '@codemirror/tooltip': 0.19.12
       '@codemirror/view': 0.19.45
       crelt: 1.0.5
     dev: true
@@ -279,13 +279,6 @@ packages:
 
   /@codemirror/tooltip/0.19.12:
     resolution: {integrity: sha512-EjF00T/wo+3cKGX1OOiBJF4wgDqtErzKuEqcBQsB2M2kX2O8slzQ0Z0+l5nV2JCe8RpEsz+rWGikjghasokRmw==}
-    dependencies:
-      '@codemirror/state': 0.19.9
-      '@codemirror/view': 0.19.45
-    dev: true
-
-  /@codemirror/tooltip/0.19.6:
-    resolution: {integrity: sha512-a2xBVsk6JiLXpbMUfAM5pA+K7Om+7U7zlm1rBg0LaOez+3r9tiB2T0aw+IBKWOzAHKV3EwFbM7dwclUZBBYBfg==}
     dependencies:
       '@codemirror/state': 0.19.9
       '@codemirror/view': 0.19.45
