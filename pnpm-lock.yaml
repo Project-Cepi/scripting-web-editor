@@ -9,7 +9,7 @@ specifiers:
   '@codemirror/comment': 0.19.1
   '@codemirror/fold': 0.19.3
   '@codemirror/gutter': 0.19.9
-  '@codemirror/highlight': 0.19.7
+  '@codemirror/highlight': 0.19.8
   '@codemirror/history': 0.19.2
   '@codemirror/language': 0.19.8
   '@codemirror/legacy-modes': 0.19.1
@@ -53,7 +53,7 @@ devDependencies:
   '@codemirror/comment': 0.19.1
   '@codemirror/fold': 0.19.3
   '@codemirror/gutter': 0.19.9
-  '@codemirror/highlight': 0.19.7
+  '@codemirror/highlight': 0.19.8
   '@codemirror/history': 0.19.2
   '@codemirror/language': 0.19.8
   '@codemirror/lint': 0.19.6
@@ -102,7 +102,7 @@ packages:
       '@codemirror/comment': 0.19.1
       '@codemirror/fold': 0.19.3
       '@codemirror/gutter': 0.19.9
-      '@codemirror/highlight': 0.19.7
+      '@codemirror/highlight': 0.19.8
       '@codemirror/history': 0.19.2
       '@codemirror/language': 0.19.8
       '@codemirror/lint': 0.19.6
@@ -166,8 +166,8 @@ packages:
       '@codemirror/view': 0.19.47
     dev: true
 
-  /@codemirror/highlight/0.19.7:
-    resolution: {integrity: sha512-3W32hBCY0pbbv/xidismw+RDMKuIag+fo4kZIbD7WoRj+Ttcaxjf+vP6RttRHXLaaqbWh031lTeON8kMlDhMYw==}
+  /@codemirror/highlight/0.19.8:
+    resolution: {integrity: sha512-v/lzuHjrYR8MN2mEJcUD6fHSTXXli9C1XGYpr+ElV6fLBIUhMTNKR3qThp611xuWfXfwDxeL7ppcbkM/MzPV3A==}
     dependencies:
       '@codemirror/language': 0.19.8
       '@codemirror/rangeset': 0.19.5
@@ -264,7 +264,7 @@ packages:
   /@codemirror/stream-parser/0.19.7:
     resolution: {integrity: sha512-4ExcbKksmU4PIT8s11/dPESgMNLQqlMlbQzRQ1CyMcmygcuQk+58zQ84nv/X17OCUd2ephZ1DKEaHHACifzCiA==}
     dependencies:
-      '@codemirror/highlight': 0.19.7
+      '@codemirror/highlight': 0.19.8
       '@codemirror/language': 0.19.8
       '@codemirror/state': 0.19.9
       '@codemirror/text': 0.19.6
