@@ -18,7 +18,7 @@ specifiers:
   '@codemirror/rectangular-selection': 0.19.1
   '@codemirror/search': 0.19.9
   '@codemirror/state': 0.19.9
-  '@codemirror/stream-parser': 0.19.7
+  '@codemirror/stream-parser': 0.19.8
   '@codemirror/view': 0.19.47
   '@sveltejs/adapter-node': next
   '@sveltejs/kit': next
@@ -61,7 +61,7 @@ devDependencies:
   '@codemirror/rectangular-selection': 0.19.1
   '@codemirror/search': 0.19.9
   '@codemirror/state': 0.19.9
-  '@codemirror/stream-parser': 0.19.7
+  '@codemirror/stream-parser': 0.19.8
   '@codemirror/view': 0.19.47
   '@sveltejs/adapter-node': 1.0.0-next.73
   '@sveltejs/kit': 1.0.0-next.303_sass@1.49.9+svelte@3.46.4
@@ -195,7 +195,7 @@ packages:
   /@codemirror/legacy-modes/0.19.1:
     resolution: {integrity: sha512-vYPLsD/ON+3SXhlGj9Qb3fpFNNU3Ya/AtDiv/g3OyqVzhh5vs5rAnOvk8xopGWRwppdhlNPD9VyXjiOmZUQtmQ==}
     dependencies:
-      '@codemirror/stream-parser': 0.19.7
+      '@codemirror/stream-parser': 0.19.8
     dev: false
 
   /@codemirror/lint/0.19.6:
@@ -261,8 +261,8 @@ packages:
     dependencies:
       '@codemirror/text': 0.19.6
 
-  /@codemirror/stream-parser/0.19.7:
-    resolution: {integrity: sha512-4ExcbKksmU4PIT8s11/dPESgMNLQqlMlbQzRQ1CyMcmygcuQk+58zQ84nv/X17OCUd2ephZ1DKEaHHACifzCiA==}
+  /@codemirror/stream-parser/0.19.8:
+    resolution: {integrity: sha512-doBqJhDc+r+Fdy2kclU3RpfZIPwk25b/eQmKBT12oZOm3Js0/dS5ZMeQFq/fB5R8Osn7xZr9WZILPO0gM1tpyQ==}
     dependencies:
       '@codemirror/highlight': 0.19.8
       '@codemirror/language': 0.19.8
