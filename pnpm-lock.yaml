@@ -11,7 +11,7 @@ specifiers:
   '@codemirror/gutter': 0.19.9
   '@codemirror/highlight': 0.19.8
   '@codemirror/history': 0.19.2
-  '@codemirror/language': 0.19.9
+  '@codemirror/language': 0.19.10
   '@codemirror/legacy-modes': 0.19.1
   '@codemirror/lint': 0.19.6
   '@codemirror/matchbrackets': 0.19.4
@@ -55,7 +55,7 @@ devDependencies:
   '@codemirror/gutter': 0.19.9
   '@codemirror/highlight': 0.19.8
   '@codemirror/history': 0.19.2
-  '@codemirror/language': 0.19.9
+  '@codemirror/language': 0.19.10
   '@codemirror/lint': 0.19.6
   '@codemirror/matchbrackets': 0.19.4
   '@codemirror/rectangular-selection': 0.19.2
@@ -85,7 +85,7 @@ packages:
   /@codemirror/autocomplete/0.19.15:
     resolution: {integrity: sha512-GQWzvvuXxNUyaEk+5gawbAD8s51/v2Chb++nx0e2eGWrphWk42isBtzOMdc3DxrxrZtPZ55q2ldNp+6G8KJLIQ==}
     dependencies:
-      '@codemirror/language': 0.19.9
+      '@codemirror/language': 0.19.10
       '@codemirror/state': 0.19.9
       '@codemirror/text': 0.19.6
       '@codemirror/tooltip': 0.19.16
@@ -104,7 +104,7 @@ packages:
       '@codemirror/gutter': 0.19.9
       '@codemirror/highlight': 0.19.8
       '@codemirror/history': 0.19.2
-      '@codemirror/language': 0.19.9
+      '@codemirror/language': 0.19.10
       '@codemirror/lint': 0.19.6
       '@codemirror/matchbrackets': 0.19.4
       '@codemirror/rectangular-selection': 0.19.2
@@ -116,7 +116,7 @@ packages:
   /@codemirror/closebrackets/0.19.1:
     resolution: {integrity: sha512-ZiLXT6u+VuBK5QnfBbt/Vmfd9Pg6449wn1DIOWFZHUOldg5eFn3VGGjYY2XWuHQz5WuK+7dXamV2KE885O1gyA==}
     dependencies:
-      '@codemirror/language': 0.19.9
+      '@codemirror/language': 0.19.10
       '@codemirror/rangeset': 0.19.5
       '@codemirror/state': 0.19.9
       '@codemirror/text': 0.19.6
@@ -132,7 +132,7 @@ packages:
   /@codemirror/commands/0.19.8:
     resolution: {integrity: sha512-65LIMSGUGGpY3oH6mzV46YWRrgao6NmfJ+AuC7jNz3K5NPnH6GCV1H5I6SwOFyVbkiygGyd0EFwrWqywTBD1aw==}
     dependencies:
-      '@codemirror/language': 0.19.9
+      '@codemirror/language': 0.19.10
       '@codemirror/matchbrackets': 0.19.4
       '@codemirror/state': 0.19.9
       '@codemirror/text': 0.19.6
@@ -152,7 +152,7 @@ packages:
     resolution: {integrity: sha512-8hT+Eq2G68mL0yPRvSD2ewhnLQAX6sbUJmtGVKFcj8oAXtfpYCX8LIcfXsuI19Qs7gZkOSpqZvn+KKj8IhZoAw==}
     dependencies:
       '@codemirror/gutter': 0.19.9
-      '@codemirror/language': 0.19.9
+      '@codemirror/language': 0.19.10
       '@codemirror/rangeset': 0.19.5
       '@codemirror/state': 0.19.9
       '@codemirror/view': 0.19.48
@@ -169,7 +169,7 @@ packages:
   /@codemirror/highlight/0.19.8:
     resolution: {integrity: sha512-v/lzuHjrYR8MN2mEJcUD6fHSTXXli9C1XGYpr+ElV6fLBIUhMTNKR3qThp611xuWfXfwDxeL7ppcbkM/MzPV3A==}
     dependencies:
-      '@codemirror/language': 0.19.9
+      '@codemirror/language': 0.19.10
       '@codemirror/rangeset': 0.19.5
       '@codemirror/state': 0.19.9
       '@codemirror/view': 0.19.48
@@ -183,8 +183,8 @@ packages:
       '@codemirror/view': 0.19.48
     dev: true
 
-  /@codemirror/language/0.19.9:
-    resolution: {integrity: sha512-Rqh7sJduwNVWoLXbOx1nf1vh0zXSIMJ3XDSyISuiIDaOo6Ps7aXgO5BCn+oa3/1RIroEu6vo4PP/zP6B7NSRWg==}
+  /@codemirror/language/0.19.10:
+    resolution: {integrity: sha512-yA0DZ3RYn2CqAAGW62VrU8c4YxscMQn45y/I9sjBlqB1e2OTQLg4CCkMBuMSLXk4xaqjlsgazeOQWaJQOKfV8Q==}
     dependencies:
       '@codemirror/state': 0.19.9
       '@codemirror/text': 0.19.6
@@ -213,7 +213,7 @@ packages:
   /@codemirror/matchbrackets/0.19.4:
     resolution: {integrity: sha512-VFkaOKPNudAA5sGP1zikRHCEKU0hjYmkKpr04pybUpQvfTvNJXlReCyP0rvH/1iEwAGPL990ZTT+QrLdu4MeEA==}
     dependencies:
-      '@codemirror/language': 0.19.9
+      '@codemirror/language': 0.19.10
       '@codemirror/state': 0.19.9
       '@codemirror/view': 0.19.48
       '@lezer/common': 0.15.5
@@ -265,7 +265,7 @@ packages:
     resolution: {integrity: sha512-WTmkEFSRCetpk8xIOvV2yyXdZs3DgYckM0IP7eFi4ewlxWnJO/H4BeJZLs4wQaydWsAqTQoDyIwNH1BCzK5LUQ==}
     dependencies:
       '@codemirror/highlight': 0.19.8
-      '@codemirror/language': 0.19.9
+      '@codemirror/language': 0.19.10
       '@codemirror/state': 0.19.9
       '@codemirror/text': 0.19.6
       '@lezer/common': 0.15.5
