@@ -22,7 +22,7 @@
 		"@codemirror/lint": "0.19.6",
 		"@codemirror/matchbrackets": "0.19.4",
 		"@codemirror/rectangular-selection": "0.19.2",
-		"@codemirror/search": "0.19.9",
+		"@codemirror/search": "0.19.10",
 		"@codemirror/state": "0.19.9",
 		"@codemirror/stream-parser": "0.19.9",
 		"@codemirror/view": "0.19.48",
