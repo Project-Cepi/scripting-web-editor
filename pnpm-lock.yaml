@@ -30,7 +30,7 @@ specifiers:
   lezer: 0.13.5
   luaparse: 0.3.1
   prettier: 2.6.2
-  prettier-plugin-svelte: 2.6.0
+  prettier-plugin-svelte: 2.7.0
   sass: 1.50.0
   svelte: 3.46.6
   svelte-preprocess: 4.10.5
@@ -64,7 +64,7 @@ devDependencies:
   '@codemirror/stream-parser': 0.19.9
   '@codemirror/view': 0.19.48
   '@sveltejs/adapter-node': 1.0.0-next.73
-  '@sveltejs/kit': 1.0.0-next.308_sass@1.50.0+svelte@3.46.6
+  '@sveltejs/kit': 1.0.0-next.310_sass@1.50.0+svelte@3.46.6
   '@typescript-eslint/eslint-plugin': 5.18.0_a07dca3bdfc4bfa60f4dda0c1f9e3287
   '@typescript-eslint/parser': 5.18.0_eslint@8.12.0+typescript@4.6.3
   eslint: 8.12.0
@@ -72,7 +72,7 @@ devDependencies:
   eslint-plugin-svelte3: 3.4.1_eslint@8.12.0+svelte@3.46.6
   lezer: 0.13.5
   prettier: 2.6.2
-  prettier-plugin-svelte: 2.6.0_prettier@2.6.2+svelte@3.46.6
+  prettier-plugin-svelte: 2.7.0_prettier@2.6.2+svelte@3.46.6
   sass: 1.50.0
   svelte: 3.46.6
   svelte-preprocess: 4.10.5_71ac59d67094d49aa9b6020737f07065
@@ -365,8 +365,8 @@ packages:
       tiny-glob: 0.2.9
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.308_sass@1.50.0+svelte@3.46.6:
-    resolution: {integrity: sha512-/ORLef5kZEMTUgUkdSQ5Lsn3IKBRNYmLdJ26JjtSa03nPKsybvSMiGIho9WS6ESBw3+XaYF91TqksTyr/gTeoA==}
+  /@sveltejs/kit/1.0.0-next.310_sass@1.50.0+svelte@3.46.6:
+    resolution: {integrity: sha512-pTyMyaoyHS+V5cQZIQMfQXmLkhw1VaRwT9avOSgwDc0QBpnNw2LdzwoPYsUr96ca5B6cfT3SMUNolxErTNHmPQ==}
     engines: {node: '>=14.13'}
     hasBin: true
     peerDependencies:
@@ -1479,8 +1479,8 @@ packages:
     engines: {node: '>= 0.8.0'}
     dev: true
 
-  /prettier-plugin-svelte/2.6.0_prettier@2.6.2+svelte@3.46.6:
-    resolution: {integrity: sha512-NPSRf6Y5rufRlBleok/pqg4+1FyGsL0zYhkYP6hnueeL1J/uCm3OfOZPsLX4zqD9VAdcXfyEL2PYqGv8ZoOSfA==}
+  /prettier-plugin-svelte/2.7.0_prettier@2.6.2+svelte@3.46.6:
+    resolution: {integrity: sha512-fQhhZICprZot2IqEyoiUYLTRdumULGRvw0o4dzl5jt0jfzVWdGqeYW27QTWAeXhoupEZJULmNoH3ueJwUWFLIA==}
     peerDependencies:
       prettier: ^1.16.4 || ^2.0.0
       svelte: ^3.2.0
