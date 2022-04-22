@@ -13,13 +13,13 @@ specifiers:
   '@codemirror/history': 0.19.2
   '@codemirror/language': 0.20.0
   '@codemirror/legacy-modes': 0.20.0
-  '@codemirror/lint': 0.20.0
+  '@codemirror/lint': 0.20.1
   '@codemirror/matchbrackets': 0.19.4
   '@codemirror/rectangular-selection': 0.19.2
-  '@codemirror/search': 0.20.0
+  '@codemirror/search': 0.20.1
   '@codemirror/state': 0.20.0
   '@codemirror/stream-parser': 0.19.9
-  '@codemirror/view': 0.20.1
+  '@codemirror/view': 0.20.2
   '@sveltejs/adapter-node': next
   '@sveltejs/kit': next
   '@typescript-eslint/eslint-plugin': 5.20.0
@@ -56,13 +56,13 @@ devDependencies:
   '@codemirror/highlight': 0.19.8
   '@codemirror/history': 0.19.2
   '@codemirror/language': 0.20.0
-  '@codemirror/lint': 0.20.0
+  '@codemirror/lint': 0.20.1
   '@codemirror/matchbrackets': 0.19.4
   '@codemirror/rectangular-selection': 0.19.2
-  '@codemirror/search': 0.20.0
+  '@codemirror/search': 0.20.1
   '@codemirror/state': 0.20.0
   '@codemirror/stream-parser': 0.19.9
-  '@codemirror/view': 0.20.1
+  '@codemirror/view': 0.20.2
   '@sveltejs/adapter-node': 1.0.0-next.73
   '@sveltejs/kit': 1.0.0-next.318_sass@1.50.1+svelte@3.47.0
   '@typescript-eslint/eslint-plugin': 5.20.0_b9ac9b5656ce5dffade639fcf5e491bf
@@ -87,7 +87,7 @@ packages:
     dependencies:
       '@codemirror/language': 0.20.0
       '@codemirror/state': 0.20.0
-      '@codemirror/view': 0.20.1
+      '@codemirror/view': 0.20.2
       '@lezer/common': 0.16.0
     dev: true
 
@@ -97,10 +97,10 @@ packages:
       '@codemirror/autocomplete': 0.20.0
       '@codemirror/commands': 0.20.0
       '@codemirror/language': 0.20.0
-      '@codemirror/lint': 0.20.0
-      '@codemirror/search': 0.20.0
+      '@codemirror/lint': 0.20.1
+      '@codemirror/search': 0.20.1
       '@codemirror/state': 0.20.0
-      '@codemirror/view': 0.20.1
+      '@codemirror/view': 0.20.2
     dev: true
 
   /@codemirror/closebrackets/0.19.2:
@@ -124,7 +124,7 @@ packages:
     dependencies:
       '@codemirror/language': 0.20.0
       '@codemirror/state': 0.20.0
-      '@codemirror/view': 0.20.1
+      '@codemirror/view': 0.20.2
       '@lezer/common': 0.16.0
     dev: true
 
@@ -186,7 +186,7 @@ packages:
     resolution: {integrity: sha512-lPsF5Y2ZFd5lZ9+7HXTxu57Po3dms3+7q2iAffzrbis2wyJo0lzi/j2312EKStEzwd0pGGpvrUk2dEd333N2jw==}
     dependencies:
       '@codemirror/state': 0.20.0
-      '@codemirror/view': 0.20.1
+      '@codemirror/view': 0.20.2
       '@lezer/common': 0.16.0
       '@lezer/highlight': 0.16.0
       '@lezer/lr': 0.16.0
@@ -197,11 +197,11 @@ packages:
       '@codemirror/language': 0.20.0
     dev: false
 
-  /@codemirror/lint/0.20.0:
-    resolution: {integrity: sha512-JLWWpNEfIeuCGJNMauyYs3xqaYkkpeluuwgdPZgWrD/BjyqkJaYFScA3UVyYaQwGIXQKMnzhZXnuIa4q9cx0mA==}
+  /@codemirror/lint/0.20.1:
+    resolution: {integrity: sha512-aWbeicDiNe5tb2aZuXs7sKk3hQ89Z1YcUuUX8ngQu23tT6EY4kcY2cayDjizvkLn8iHkObNf97uSudjNmUon2Q==}
     dependencies:
       '@codemirror/state': 0.20.0
-      '@codemirror/view': 0.20.1
+      '@codemirror/view': 0.20.2
       crelt: 1.0.5
     dev: true
 
@@ -234,11 +234,11 @@ packages:
       '@codemirror/view': 0.19.48
     dev: true
 
-  /@codemirror/search/0.20.0:
-    resolution: {integrity: sha512-zgMHg9zXdaACL651ODmj6a5ierlCoxI1zBTF7WCkpL1pvqyaxOJXxlpzeFgJXZGSxUaRr1me6Py8LJIsHpMH6w==}
+  /@codemirror/search/0.20.1:
+    resolution: {integrity: sha512-ROe6gRboQU5E4z6GAkNa2kxhXqsGNbeLEisbvzbOeB7nuDYXUZ70vGIgmqPu0tB+1M3F9yWk6W8k2vrFpJaD4Q==}
     dependencies:
       '@codemirror/state': 0.20.0
-      '@codemirror/view': 0.20.1
+      '@codemirror/view': 0.20.2
       crelt: 1.0.5
     dev: true
 
@@ -276,8 +276,8 @@ packages:
       w3c-keyname: 2.2.4
     dev: true
 
-  /@codemirror/view/0.20.1:
-    resolution: {integrity: sha512-DpTtg/w4LxgYmEYq67LY4k7ZDRJ97ppeQVg0+VsUi7CqHjfedi3zmjiUq9gA9is5DKIpGARDKyHigslpw3cX5w==}
+  /@codemirror/view/0.20.2:
+    resolution: {integrity: sha512-vbvOlRTgN6DX3DnZM2yCqBfUfIlDM48Mp7E9NFIDZEnrsUAgoIgGH8dUJYqyplE3H5YBXa4eBhVTOmd9p5j0Hg==}
     dependencies:
       '@codemirror/state': 0.20.0
       style-mod: 4.0.0
