@@ -19,7 +19,7 @@
 		"@codemirror/highlight": "0.19.8",
 		"@codemirror/history": "0.19.2",
 		"@codemirror/language": "0.20.0",
-		"@codemirror/lint": "0.20.1",
+		"@codemirror/lint": "0.20.2",
 		"@codemirror/matchbrackets": "0.19.4",
 		"@codemirror/rectangular-selection": "0.19.2",
 		"@codemirror/search": "0.20.1",
