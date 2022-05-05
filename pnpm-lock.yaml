@@ -26,7 +26,7 @@ specifiers:
   '@typescript-eslint/parser': 5.22.0
   eslint: 8.14.0
   eslint-config-prettier: 8.5.0
-  eslint-plugin-svelte3: 3.4.1
+  eslint-plugin-svelte3: 4.0.0
   lezer: 0.13.5
   luaparse: 0.3.1
   prettier: 2.6.2
@@ -64,12 +64,12 @@ devDependencies:
   '@codemirror/stream-parser': 0.19.9
   '@codemirror/view': 0.20.4
   '@sveltejs/adapter-node': 1.0.0-next.73
-  '@sveltejs/kit': 1.0.0-next.325_sass@1.51.0+svelte@3.48.0
+  '@sveltejs/kit': 1.0.0-next.326_sass@1.51.0+svelte@3.48.0
   '@typescript-eslint/eslint-plugin': 5.22.0_lnjlwhtxjffjmj5o7dnwvwyqxq
   '@typescript-eslint/parser': 5.22.0_t725usgvqspm5woeqpaxbfp2qu
   eslint: 8.14.0
   eslint-config-prettier: 8.5.0_eslint@8.14.0
-  eslint-plugin-svelte3: 3.4.1_ocxlrf2nkx6hb2cyi7uc5mkzg4
+  eslint-plugin-svelte3: 4.0.0_ocxlrf2nkx6hb2cyi7uc5mkzg4
   lezer: 0.13.5
   prettier: 2.6.2
   prettier-plugin-svelte: 2.7.0_kkjbqzpydplecjtkxrgomroeru
@@ -373,8 +373,8 @@ packages:
       tiny-glob: 0.2.9
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.325_sass@1.51.0+svelte@3.48.0:
-    resolution: {integrity: sha512-ED+wJR/eYdLGwvELP8aeMtkSpYsr8jGAyno9vcV2DLQv8F0i5nRq/xtO1820mSSqjp+YU2QMuvWQIzF4ERwGsw==}
+  /@sveltejs/kit/1.0.0-next.326_sass@1.51.0+svelte@3.48.0:
+    resolution: {integrity: sha512-prJqmXZ2H1wmFfnMw7wDujfbkcA8vuubuqUkpVVmXhfh2+SEzQscPTNwxoE5EJxb5sywtLWEvYx3hv1gPS4Lvg==}
     engines: {node: '>=14.13'}
     hasBin: true
     peerDependencies:
@@ -956,11 +956,10 @@ packages:
       eslint: 8.14.0
     dev: true
 
-  /eslint-plugin-svelte3/3.4.1_ocxlrf2nkx6hb2cyi7uc5mkzg4:
-    resolution: {integrity: sha512-7p59WG8qV8L6wLdl4d/c3mdjkgVglQCdv5XOTk/iNPBKXuuV+Q0eFP5Wa6iJd/G2M1qR3BkLPEzaANOqKAZczw==}
-    engines: {node: '>=10'}
+  /eslint-plugin-svelte3/4.0.0_ocxlrf2nkx6hb2cyi7uc5mkzg4:
+    resolution: {integrity: sha512-OIx9lgaNzD02+MDFNLw0GEUbuovNcglg+wnd/UY0fbZmlQSz7GlQiQ1f+yX0XvC07XPcDOnFcichqI3xCwp71g==}
     peerDependencies:
-      eslint: '>=6.0.0'
+      eslint: '>=8.0.0'
       svelte: ^3.2.0
     dependencies:
       eslint: 8.14.0
